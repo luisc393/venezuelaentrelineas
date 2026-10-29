@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="post">
+  {% if page.categoria %}<p class="kicker">{{ page.categoria }}</p>{% endif %}
+  <h1>{{ page.title }}</h1>
+  {% if page.resumen %}<p class="lead">{{ page.resumen }}</p>{% endif %}
+  <p class="meta">{% include fecha.html fecha=page.date %}{% if page.autor %} · Por {{ page.autor }}{% endif %}</p>
+  {% if page.imagen %}<img class="hero-img" src="{{ page.imagen | relative_url }}" alt="{{ page.title }}">{% endif %}
+  <div class="prose">{{ content }}</div>
+  <p class="back"><a href="{{ '/' | relative_url }}">← Volver a las noticias</a></p>
+</article>

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Noticias buenas de Venezuela
+---
+<section class="hero">
+  <p class="kicker">Desde 1996</p>
+  <h1>Las buenas noticias de Venezuela también son noticia.</h1>
+  <p class="lead">Historias de venezolanos que trabajan en silencio y sin descanso por los demás, y el material educativo que la familia Capriles lleva casi treinta años sembrando en todo el país.</p>
+</section>
+
+<section>
+  <h2 class="section-title">Lo más reciente</h2>
+  <div class="cards">
+    {% for post in site.posts %}
+    <a class="card" href="{{ post.url | relative_url }}">
+      {% if post.categoria %}<span class="kicker">{{ post.categoria }}</span>{% endif %}
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.resumen | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <span class="meta">{% include fecha.html fecha=post.date %}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
