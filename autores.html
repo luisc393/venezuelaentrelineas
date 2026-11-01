@@ -1,0 +1,50 @@
+---
+layout: default
+title: Autores
+permalink: /autores/
+description: Índice de autores de Vértice y Leer Entrelíneas, con cada uno de sus artículos.
+---
+{%- assign todos = "" -%}
+{%- comment -%}Clave "nombre-sin-acentos~Nombre" para ordenar Á con la A.{%- endcomment -%}
+{%- for a in site.articulos -%}{%- for n in a.autores -%}{%- assign k = n | slugify: "latin" -%}{%- assign todos = todos | append: k | append: "~" | append: n | append: "|" -%}{%- endfor -%}{%- endfor -%}
+{%- assign claves = todos | split: "|" | uniq | sort -%}
+{%- assign nombres = "" | split: "" -%}
+{%- for c in claves -%}{%- assign par = c | split: "~" -%}{%- assign nombres = nombres | push: par[1] -%}{%- endfor -%}
+{%- assign sinfirma = site.articulos | where_exp: "a", "a.autores.size == 0" -%}
+<section class="wrap page autores">
+  <header class="page-head">
+    <p class="kicker">Hemeroteca</p>
+    <h1>Autores</h1>
+    <p class="dek">Quiénes escribieron en nuestras publicaciones y qué escribió cada uno. El índice crece con cada número que transcribimos.</p>
+    <p class="byline">{{ nombres.size }} autores · {{ site.articulos.size }} textos transcritos</p>
+  </header>
+
+  <nav class="letras">
+    {%- assign prev = "" -%}
+    {%- for n in nombres -%}{%- assign l = n | slugify: "latin" | slice: 0 | upcase -%}{%- if l != prev -%}<a href="#letra-{{ l | slugify }}">{{ l }}</a>{%- assign prev = l -%}{%- endif -%}{%- endfor -%}
+  </nav>
+
+  <div class="autores-lista">
+    {%- assign prev = "" -%}
+    {% for n in nombres %}
+    {%- assign l = n | slugify: "latin" | slice: 0 | upcase -%}
+    {% if l != prev %}<h2 class="letra" id="letra-{{ l | slugify }}">{{ l }}</h2>{% assign prev = l %}{% endif %}
+    {%- assign suyos = site.articulos | where_exp: "a", "a.autores contains n" | sort: "orden" -%}
+    <div class="autor" id="{{ n | slugify }}">
+      <h3>{{ n }} <span class="autor-cuenta">{{ suyos.size }} {% if suyos.size == 1 %}artículo{% else %}artículos{% endif %}</span></h3>
+      <ul>
+        {% for a in suyos %}<li><a href="{{ a.url | relative_url }}">{{ a.title }}</a> <span>{{ a.publicacion }} · {{ a.numero_texto }}, pág. {{ a.pagina }}</span></li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+    {% if sinfirma.size > 0 %}
+    <h2 class="letra" id="sin-firma">Sin firma</h2>
+    <div class="autor">
+      <h3>Textos de la redacción <span class="autor-cuenta">{{ sinfirma.size }}</span></h3>
+      <ul>
+        {% for a in sinfirma %}<li><a href="{{ a.url | relative_url }}">{{ a.title }}</a> <span>{{ a.publicacion }} · {{ a.numero_texto }}, pág. {{ a.pagina }}</span></li>{% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
