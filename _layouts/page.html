@@ -1,8 +1,11 @@
 ---
 layout: default
 ---
-<article class="page">
-  <h1>{{ page.title }}</h1>
-  {% if page.intro %}<p class="lead">{{ page.intro }}</p>{% endif %}
-  <div class="prose">{{ content }}</div>
+<article class="wrap page">
+  <header class="page-head">
+    {% if page.kicker %}<p class="kicker">{{ page.kicker }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.intro %}<p class="dek">{{ page.intro }}</p>{% endif %}
+  </header>
+  <div class="prose prose-drop">{{ content }}</div>
 </article>

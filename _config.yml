@@ -10,6 +10,33 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Archivo de publicaciones: cada número es un archivo en su carpeta.
+collections:
+  entrelineas:
+    output: true
+    permalink: /leer-entrelineas/:name/
+  vertice:
+    output: true
+    permalink: /vertice/:name/
+
+defaults:
+  - scope:
+      type: entrelineas
+    values:
+      layout: numero
+      publicacion: Leer Entrelíneas
+      seccion_url: /leer-entrelineas/
+  - scope:
+      type: vertice
+    values:
+      layout: numero
+      publicacion: Vértice
+      seccion_url: /vertice/
+
 exclude:
   - README.md
   - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

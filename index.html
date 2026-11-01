@@ -2,22 +2,97 @@
 layout: default
 title: Noticias buenas de Venezuela
 ---
-<section class="hero">
-  <p class="kicker">Desde 1996</p>
-  <h1>Las buenas noticias de Venezuela también son noticia.</h1>
-  <p class="lead">Historias de venezolanos que trabajan en silencio y sin descanso por los demás, y el material educativo que la familia Capriles lleva casi treinta años sembrando en todo el país.</p>
+{%- assign principal = site.posts | first -%}
+{%- assign le = site.entrelineas | sort: "fecha" | reverse | first -%}
+{%- assign ve = site.vertice | sort: "fecha" | first -%}
+
+<section class="wrap front">
+  <div class="front-grid">
+    {% if principal %}
+    <article class="lead-story">
+      <p class="kicker">{{ principal.categoria | default: "Noticias" }}</p>
+      <h1><a href="{{ principal.url | relative_url }}">{{ principal.title }}</a></h1>
+      <p class="dek">{{ principal.resumen | default: principal.excerpt | strip_html | truncatewords: 40 }}</p>
+      <p class="byline">{% if principal.autor %}Por <strong>{{ principal.autor }}</strong> · {% endif %}{% include fecha.html fecha=principal.date %}</p>
+    </article>
+    {% endif %}
+
+    <aside class="front-side">
+      <p class="side-label">Lo más reciente</p>
+      <ol class="headlines">
+        {% for post in site.posts limit: 5 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            {% if post.categoria %}<span class="kicker">{{ post.categoria }}</span>{% endif %}
+            <span class="hl">{{ post.title }}</span>
+          </a>
+        </li>
+        {% endfor %}
+        <li>
+          <a href="{{ '/vertice/' | relative_url }}">
+            <span class="kicker">Hemeroteca</span>
+            <span class="hl">Vuelve <em>Vértice</em>, la revista universitaria de los años sesenta</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ '/leer-entrelineas/' | relative_url }}">
+            <span class="kicker">Hemeroteca</span>
+            <span class="hl">El archivo de <em>Leer Entrelíneas</em>, número por número</span>
+          </a>
+        </li>
+      </ol>
+    </aside>
+  </div>
 </section>
 
-<section>
-  <h2 class="section-title">Lo más reciente</h2>
+<section class="archivo-band">
+  <div class="wrap">
+    <div class="rule-head rule-head-light"><h2>La hemeroteca</h2><span>Publicaciones que hicieron historia, digitalizadas para todos</span></div>
+    <div class="archivo-grid">
+      <a class="archivo-card" href="{{ '/leer-entrelineas/' | relative_url }}">
+        {% if le %}<img src="{{ le.portada | relative_url }}" alt="Portada de {{ le.title }}">{% endif %}
+        <span class="archivo-text">
+          <span class="kicker kicker-light">Desde 1996</span>
+          <span class="archivo-title">Leer Entrelíneas</span>
+          <span class="archivo-desc">El periódico gratuito que llegó a repartir 50.000 ejemplares al mes en nueve estados, de mano en mano.</span>
+          <span class="archivo-link">Ver el archivo →</span>
+        </span>
+      </a>
+      <a class="archivo-card" href="{{ '/vertice/' | relative_url }}">
+        {% if ve %}<img src="{{ ve.portada | relative_url }}" alt="Portada de {{ ve.title }}">{% endif %}
+        <span class="archivo-text">
+          <span class="kicker kicker-light">1962–1968</span>
+          <span class="archivo-title">Vértice</span>
+          <span class="archivo-desc">La revista universitaria de ideas, artes y letras que una generación de estudiantes vendió por los pasillos.</span>
+          <span class="archivo-link">Ver la colección →</span>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="rule-head"><h2>Noticias</h2><span>Historias de venezolanos que trabajan por los demás</span></div>
   <div class="cards">
     {% for post in site.posts %}
     <a class="card" href="{{ post.url | relative_url }}">
+      {% if post.imagen %}<img src="{{ post.imagen | relative_url }}" alt="" loading="lazy">{% endif %}
       {% if post.categoria %}<span class="kicker">{{ post.categoria }}</span>{% endif %}
       <h3>{{ post.title }}</h3>
       <p>{{ post.resumen | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
       <span class="meta">{% include fecha.html fecha=post.date %}</span>
     </a>
     {% endfor %}
+  </div>
+</section>
+
+<section class="wrap cta">
+  <div class="cta-box">
+    <div>
+      <p class="kicker">Participa</p>
+      <h2>¿Conoces una buena noticia de Venezuela?</h2>
+      <p>Este medio se construye entre muchos. Cuéntanos la historia de una persona, una escuela o una comunidad que esté haciendo el bien.</p>
+    </div>
+    <a class="btn" href="{{ '/participa/' | relative_url }}">Quiero participar</a>
   </div>
 </section>

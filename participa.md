@@ -2,6 +2,7 @@
 layout: page
 title: Participa
 permalink: /participa/
+kicker: Súmate
 intro: Venezuela Entrelíneas se construye entre muchos. Así puedes sumarte.
 ---
 

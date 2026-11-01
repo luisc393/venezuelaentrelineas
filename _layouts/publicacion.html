@@ -1,0 +1,58 @@
+---
+layout: default
+---
+{%- assign numeros = site[page.coleccion] | sort: "fecha" | reverse -%}
+{%- assign ultimo = numeros | first -%}
+<section class="pub-hero pub-{{ page.coleccion }}">
+  <div class="wrap pub-hero-grid">
+    <div class="pub-hero-text">
+      <p class="kicker kicker-light">Hemeroteca · {{ page.periodo }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="pub-sub">{{ page.subtitulo }}</p>
+      <p class="pub-intro">{{ page.intro }}</p>
+      <ul class="pub-datos">
+        {% for d in page.datos %}<li><strong>{{ d.valor }}</strong><span>{{ d.etiqueta }}</span></li>{% endfor %}
+      </ul>
+      <p class="pub-actions">
+        <a class="btn btn-light" href="#numeros">Ver los números</a>
+        <a class="btn btn-ghost" href="#historia">Leer la historia</a>
+      </p>
+    </div>
+    {% if ultimo %}
+    <a class="pub-hero-cover" href="{{ ultimo.url | relative_url }}">
+      <img src="{{ ultimo.portada | relative_url }}" alt="Portada de {{ ultimo.title }}">
+      <span class="cover-tag">{{ ultimo.fecha_texto }} · N.º {{ ultimo.numero }}</span>
+    </a>
+    {% endif %}
+  </div>
+</section>
+
+<section class="wrap" id="numeros">
+  <div class="rule-head"><h2>Todos los números</h2><span>{{ numeros.size }} {% if numeros.size == 1 %}número digitalizado{% else %}números digitalizados{% endif %} · se irán sumando más</span></div>
+  <div class="issues">
+    {% for n in numeros %}
+    <a class="issue" href="{{ n.url | relative_url }}">
+      <span class="issue-cover"><img src="{{ n.portada | relative_url }}" alt="Portada de {{ n.title }}" loading="lazy"></span>
+      <span class="issue-num">N.º {{ n.numero }}</span>
+      <span class="issue-date">{{ n.fecha_texto }}</span>
+      <span class="issue-title">{{ n.titular }}</span>
+    </a>
+    {% endfor %}
+    <div class="issue issue-pendiente">
+      <span class="issue-cover issue-cover-vacia"><span>Próximamente</span></span>
+      <span class="issue-num">Más números</span>
+      <span class="issue-date">En digitalización</span>
+    </div>
+  </div>
+</section>
+
+<section class="historia" id="historia">
+  <div class="wrap historia-grid">
+    <aside class="historia-aside">
+      <p class="kicker">La historia</p>
+      <h2>{{ page.historia_titulo }}</h2>
+      {% if page.cita %}<blockquote class="pull">«{{ page.cita }}»{% if page.cita_autor %}<cite>{{ page.cita_autor }}</cite>{% endif %}</blockquote>{% endif %}
+    </aside>
+    <div class="prose prose-drop">{{ content }}</div>
+  </div>
+</section>

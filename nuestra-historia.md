@@ -2,7 +2,8 @@
 layout: page
 title: Nuestra historia
 permalink: /nuestra-historia/
-intro: Un sueño de Luis Felipe Capriles Lizarraga y María Denisse Fanianos de Capriles: llenar Venezuela de buen material educativo.
+kicker: Quiénes somos
+intro: "Un sueño de Luis Felipe Capriles Lizarraga y María Denisse Fanianos de Capriles: llenar Venezuela de buen material educativo."
 ---
 
 ## Una imprenta con responsabilidad social
