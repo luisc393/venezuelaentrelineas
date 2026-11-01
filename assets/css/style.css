@@ -238,3 +238,33 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
   .pub-hero-cover { max-width: 230px; }
   .visor { display: none; }
 }
+
+/* Artículos transcritos */
+.articulo .crumbs { margin-bottom: 12px; }
+.articulo .byline a { text-decoration: none; }
+.articulo .byline a:hover strong { color: var(--accent); }
+.nota-transcripcion { font-family: var(--sans); font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; margin-top: 36px; }
+.nota-transcripcion a { color: var(--accent); }
+.articulo-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 32px 0; }
+.articulo-nav a { text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 18px; line-height: 1.25; border-top: 3px solid var(--ink); padding-top: 10px; }
+.articulo-nav a:hover { color: var(--accent); }
+.articulo-nav span { display: block; font-family: var(--sans); font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .1em; color: var(--accent); margin-bottom: 4px; }
+.articulo-nav .next { text-align: right; grid-column: 2; }
+a.sum-tit { text-decoration: none; }
+a.sum-tit:hover { color: var(--accent); }
+
+/* Índice de autores */
+.autores { max-width: 900px; }
+.letras { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; }
+.letras a { font-family: var(--display); font-weight: 800; font-size: 18px; text-decoration: none; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--rule); }
+.letras a:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+.letra { font-size: 40px; font-weight: 900; color: var(--accent); border-bottom: 3px solid var(--ink); margin: 36px 0 8px; padding-bottom: 4px; }
+.autor { padding: 16px 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 70px; }
+.autor h3 { font-size: 24px; font-weight: 800; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.autor-cuenta { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.autor ul { list-style: none; padding: 0; margin: 8px 0 0; }
+.autor li { padding: 4px 0; }
+.autor li a { color: var(--ink); font-weight: 600; text-decoration-color: var(--rule); }
+.autor li a:hover { color: var(--accent); }
+.autor li span { display: block; font-family: var(--sans); font-size: 13px; color: var(--muted); }
+.autor:target { background: var(--paper-2); }

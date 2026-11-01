@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- assign numero = site.vertice | where: "url", page.numero_url | first -%}
+{%- if numero == nil -%}{%- assign numero = site.entrelineas | where: "url", page.numero_url | first -%}{%- endif -%}
+{%- assign hermanos = site.articulos | where: "numero_url", page.numero_url | sort: "orden" -%}
+<article class="wrap post articulo">
+  <p class="crumbs"><a href="{{ numero.seccion_url | relative_url }}">{{ page.publicacion }}</a> <span>›</span> <a href="{{ page.numero_url | relative_url }}">{{ page.numero_texto }}</a></p>
+  <header class="page-head">
+    <p class="kicker">{% if page.seccion %}{{ page.seccion }} · {% endif %}{{ page.publicacion }}, pág. {{ page.pagina }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="byline">{% if page.autores.size > 0 %}Por {% for a in page.autores %}<a href="{{ '/autores/' | relative_url }}#{{ a | slugify }}"><strong>{{ a }}</strong></a>{% unless forloop.last %}{% if forloop.rindex == 2 %} y {% else %}, {% endif %}{% endunless %}{% endfor %}{% else %}Sin firma{% endif %} · {{ page.numero_texto }}</p>
+  </header>
+  <div class="prose prose-drop">{{ content }}</div>
+  <p class="nota-transcripcion">Transcripción fiel del original impreso. Puedes ver la página tal como salió en el <a href="{{ numero.pdf | relative_url }}">PDF del número</a>.</p>
+  <nav class="articulo-nav">
+    {% for a in hermanos %}{% if a.url == page.url %}
+      {% if forloop.first == false %}{% assign prev = forloop.index0 | minus: 1 %}<a class="prev" href="{{ hermanos[prev].url | relative_url }}"><span>← Anterior</span>{{ hermanos[prev].title }}</a>{% else %}<span></span>{% endif %}
+      {% unless forloop.last %}<a class="next" href="{{ hermanos[forloop.index].url | relative_url }}"><span>Siguiente →</span>{{ hermanos[forloop.index].title }}</a>{% endunless %}
+    {% endif %}{% endfor %}
+  </nav>
+</article>

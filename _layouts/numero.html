@@ -20,7 +20,21 @@ layout: default
     </div>
   </div>
 
-  {% if page.sumario %}
+  {%- assign arts = site.articulos | where: "numero_url", page.url | sort: "orden" -%}
+  {% if arts.size > 0 %}
+  <section class="sumario">
+    <div class="rule-head"><h2>Lee el número, artículo por artículo</h2><span>{{ arts.size }} textos transcritos</span></div>
+    <ol>
+      {% for a in arts %}
+      <li>
+        <span class="sum-pag">{{ a.pagina }}</span>
+        <a class="sum-tit" href="{{ a.url | relative_url }}">{{ a.title }}</a>
+        <span class="sum-aut">{% if a.seccion %}{{ a.seccion }}{% if a.autores.size > 0 %} · {% endif %}{% endif %}{{ a.autores | join: ", " }}</span>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% elsif page.sumario %}
   <section class="sumario">
     <div class="rule-head"><h2>En este número</h2></div>
     <ol>

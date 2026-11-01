@@ -19,6 +19,8 @@ collections:
   vertice:
     output: true
     permalink: /vertice/:name/
+  articulos:
+    output: true
 
 defaults:
   - scope:
@@ -33,6 +35,11 @@ defaults:
       layout: numero
       publicacion: Vértice
       seccion_url: /vertice/
+
+  - scope:
+      type: articulos
+    values:
+      layout: articulo
 
 exclude:
   - README.md
