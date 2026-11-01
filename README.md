@@ -21,8 +21,17 @@ imagen: /assets/img/nombre-de-la-foto.jpg   # opcional
 Texto de la noticia.
 ```
 
+## Subir un número de Leer Entrelíneas o Vértice
+
+1. Guarda el PDF en `assets/pdf/leer-entrelineas/` o `assets/pdf/vertice/` (revisa antes que no tenga teléfonos, direcciones ni correos personales).
+2. Guarda la portada (JPG, unos 800 px de ancho) en `assets/img/portadas/`.
+3. Crea un archivo en `_entrelineas/` (por ejemplo `157.md`) o en `_vertice/` (por ejemplo `02.md`) copiando uno de los que ya existen y cambia número, fecha, titular, resumen y sumario.
+
+El número aparece solo en la sección correspondiente, con su página propia.
+
 ## Páginas
 
 - `index.html`: portada con las últimas noticias.
-- `nuestra-historia.md`, `leer-entrelineas.md`, `participa.md`: páginas fijas.
+- `leer-entrelineas.md` y `vertice.md`: secciones de la hemeroteca, con la historia de cada publicación.
+- `nuestra-historia.md`, `participa.md`: páginas fijas.
 - `assets/css/style.css`: estilos.

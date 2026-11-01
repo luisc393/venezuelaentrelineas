@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<article class="wrap numero">
+  <p class="crumbs"><a href="{{ page.seccion_url | relative_url }}">{{ page.publicacion }}</a> <span>›</span> N.º {{ page.numero }}</p>
+  <div class="numero-grid">
+    <figure class="numero-cover">
+      <a href="{{ page.pdf | relative_url }}"><img src="{{ page.portada | relative_url }}" alt="Portada de {{ page.title }}"></a>
+    </figure>
+    <div class="numero-body">
+      <p class="kicker">{{ page.publicacion }} · {{ page.fecha_texto }}</p>
+      <h1>{{ page.titular }}</h1>
+      <p class="dek">{{ page.resumen }}</p>
+      <p class="numero-meta">N.º {{ page.numero }} · {{ page.paginas }} páginas{% if page.precio %} · Precio de portada: {{ page.precio }}{% endif %}</p>
+      <p class="pub-actions">
+        <a class="btn" href="{{ page.pdf | relative_url }}">Leer el número completo (PDF)</a>
+        <a class="btn btn-outline" href="{{ page.pdf | relative_url }}" download>Descargar</a>
+      </p>
+      <div class="prose">{{ content }}</div>
+    </div>
+  </div>
+
+  {% if page.sumario %}
+  <section class="sumario">
+    <div class="rule-head"><h2>En este número</h2></div>
+    <ol>
+      {% for a in page.sumario %}
+      <li>
+        <span class="sum-pag">{% if a.pagina %}{{ a.pagina }}{% endif %}</span>
+        <span class="sum-tit">{{ a.titulo }}</span>
+        {% if a.autor %}<span class="sum-aut">{{ a.autor }}</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endif %}
+
+  {% if page.creditos %}
+  <section class="creditos">
+    <div class="rule-head"><h2>Quiénes lo hicieron</h2></div>
+    <dl>
+      {% for c in page.creditos %}<div><dt>{{ c.rol }}</dt><dd>{{ c.nombres }}</dd></div>{% endfor %}
+    </dl>
+  </section>
+  {% endif %}
+
+  <section class="visor">
+    <div class="rule-head"><h2>Hojea el número</h2></div>
+    <object data="{{ page.pdf | relative_url }}#view=FitH" type="application/pdf" class="visor-pdf">
+      <p>Tu navegador no muestra el PDF aquí. <a href="{{ page.pdf | relative_url }}">Ábrelo en una pestaña nueva</a>.</p>
+    </object>
+  </section>
+
+  <p class="back"><a href="{{ page.seccion_url | relative_url }}">← Todos los números de {{ page.publicacion }}</a></p>
+</article>
