@@ -1,0 +1,29 @@
+{%- comment -%}
+  Caja de suscripción por correo. Se muestra solo cuando `suscripcion.action`
+  está definido en _config.yml (la URL del formulario que da el servicio de correo).
+{%- endcomment -%}
+{%- assign s = site.suscripcion -%}
+{%- if s and s.action and s.action != "" -%}
+<section class="suscripcion" id="suscribete" aria-labelledby="suscribete-titulo">
+  <div class="wrap suscripcion-inner">
+    <div class="suscripcion-texto">
+      <p class="kicker">Boletín gratuito</p>
+      <h2 id="suscribete-titulo">{{ s.titulo | default: "Recibe las buenas noticias de Venezuela" }}</h2>
+      <p>{{ s.texto | default: "Una vez por semana, en tu correo: historias que inspiran, material educativo y joyas de nuestra hemeroteca. Sin costo y sin spam." }}</p>
+    </div>
+    <form class="suscripcion-form" action="{{ s.action }}" method="post" target="_blank" rel="noopener">
+      <label class="sr-only" for="suscribete-email">Tu correo electrónico</label>
+      <input id="suscribete-email" type="email" name="{{ s.campo_email | default: 'email' }}" placeholder="tu@correo.com" autocomplete="email" required>
+      {%- if s.campo_nombre %}
+      <label class="sr-only" for="suscribete-nombre">Tu nombre</label>
+      <input id="suscribete-nombre" type="text" name="{{ s.campo_nombre }}" placeholder="Tu nombre" autocomplete="given-name">
+      {%- endif %}
+      {%- for campo in s.campos_ocultos %}
+      <input type="hidden" name="{{ campo[0] }}" value="{{ campo[1] }}">
+      {%- endfor %}
+      <button class="btn" type="submit">Suscribirme</button>
+      <p class="suscripcion-nota">Puedes darte de baja cuando quieras con un clic.</p>
+    </form>
+  </div>
+</section>
+{%- endif -%}
