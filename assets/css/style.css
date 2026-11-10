@@ -1,21 +1,25 @@
 /* Venezuela Entrelíneas · portal de noticias y revista */
 :root {
+  /* Identidad tomada del manual de Leerentrelineas C.A. */
   --paper: #ffffff;
-  --paper-2: #edf2fd;
-  --ink: #0f1a3d;
-  --ink-2: #33415f;
-  --muted: #5c6886;
-  --rule: #d3dcf1;
-  --accent: #1d43c9;
-  --accent-dark: #12309a;
+  --paper-2: #f2f3f7;
+  --ink: #161c3d;
+  --ink-2: #3a3f55;
+  --muted: #5f6470;
+  --rule: #dcdee5;
+  --accent: #26327a;      /* azul rey del logo */
+  --accent-dark: #1b245c;
+  --grey: #9e9fa1;        /* gris del logo: la palabra "entre" */
+  --link: #006699;        /* azul medio de la paleta del manual */
+  --sky: #0091d9;         /* azul claro de la paleta del manual */
   --gold: #f2c31b;
-  --blue: #1d43c9;
+  --blue: #26327a;
   --red: #c8102e;
-  --night: #1638b0;
-  --night-2: #0f2a8a;
-  --display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --night: #26327a;
+  --night-2: #1b245c;
+  --display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif;
   --serif: "Source Serif 4", Georgia, serif;
-  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sans: "Montserrat", system-ui, -apple-system, "Segoe UI", sans-serif;
   --wrap: 1180px;
 }
 
@@ -51,9 +55,12 @@ a { color: inherit; }
 
 /* Cabecera */
 .masthead { text-align: center; padding: 28px 0 18px; border-bottom: 1px solid var(--rule); }
-.wordmark { text-decoration: none; display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: baseline; gap: 0 .28em; line-height: 1; }
-.wordmark-a { font-family: var(--display); font-weight: 900; font-size: clamp(34px, 7vw, 76px); letter-spacing: -.02em; color: var(--night-2); }
-.wordmark-b { font-family: var(--display); font-style: italic; font-weight: 700; font-size: clamp(34px, 7vw, 76px); color: var(--accent); letter-spacing: -.01em; }
+.wordmark { text-decoration: none; display: inline-block; line-height: 1; }
+.logo { font-family: var(--display); font-weight: 800; letter-spacing: -.025em; color: var(--accent); white-space: nowrap; }
+.logo .entre { color: var(--grey); }
+.wordmark .logo { font-size: clamp(30px, 8.4vw, 72px); }
+.logo-claro { color: #fff; }
+.logo-claro .entre { color: #c9ccd6; }
 .masthead-tag { margin: 12px 0 0; font-family: var(--sans); font-size: 12px; text-transform: uppercase; letter-spacing: .18em; color: var(--muted); }
 
 /* Navegación */
@@ -70,7 +77,7 @@ a { color: inherit; }
 @media (max-width: 719px) { .mainnav-inner { justify-content: flex-start; } }
 
 /* Tipografía común */
-.kicker { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--accent); margin: 0 0 8px; display: block; }
+.kicker { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--link); margin: 0 0 8px; display: block; }
 .kicker-light { color: var(--gold); }
 .dek { font-size: 1.2rem; line-height: 1.5; color: var(--ink-2); margin: 0 0 16px; }
 .byline { font-family: var(--sans); font-size: 13px; color: var(--muted); margin: 0; }
@@ -157,8 +164,8 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 
 /* Secciones de publicación */
 .pub-hero { color: #fff; padding: 48px 0; background: var(--night); position: relative; overflow: hidden; }
-.pub-entrelineas { background: radial-gradient(1200px 500px at 85% 20%, #3f6bf0 0%, transparent 60%), linear-gradient(135deg, #1d43c9 0%, #0f2a8a 75%); }
-.pub-vertice { background: radial-gradient(1000px 500px at 85% 20%, #4b74f2 0%, transparent 60%), linear-gradient(135deg, #0f2a8a 0%, #1d43c9 80%); }
+.pub-entrelineas { background: radial-gradient(1200px 500px at 85% 20%, rgba(0,145,217,.35) 0%, transparent 60%), linear-gradient(135deg, #2f3d93 0%, #1b245c 75%); }
+.pub-vertice { background: radial-gradient(1000px 500px at 85% 20%, rgba(0,145,217,.3) 0%, transparent 60%), linear-gradient(135deg, #1b245c 0%, #2f3d93 80%); }
 .pub-hero-grid { display: grid; gap: 36px; align-items: center; }
 @media (min-width: 860px) { .pub-hero-grid { grid-template-columns: 1.4fr 1fr; gap: 56px; } }
 .pub-hero h1 { font-size: clamp(48px, 9vw, 96px); font-weight: 900; letter-spacing: -.02em; line-height: .95; }
@@ -224,8 +231,7 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .site-footer { background: var(--night); color: #dbe3ff; margin-top: 72px; padding: 48px 0 24px; font-size: 16px; }
 .footer-grid { display: grid; gap: 28px; }
 @media (min-width: 720px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr; } }
-.footer-brand { font-family: var(--display); font-size: 30px; font-weight: 900; color: #fff; margin: 0 0 8px; }
-.footer-brand em { color: var(--gold); }
+.footer-brand { font-size: 30px; margin: 0 0 8px; }
 .footer-title { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: #fff; margin: 0 0 10px; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 6px; }
@@ -234,7 +240,6 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .footer-base { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.2); margin-top: 32px; padding-top: 16px; font-family: var(--sans); font-size: 12px; }
 
 /* Ajustes */
-.wordmark-a { margin-right: .22em; }
 @media (max-width: 719px) {
   .topbar-links a:last-child { display: none; }
   .pub-hero-cover { max-width: 230px; }
