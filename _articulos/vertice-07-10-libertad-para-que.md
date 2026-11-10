@@ -1,0 +1,31 @@
+---
+title: "Libertad, ¿para qué?"
+publicacion: Vértice
+numero: 7
+numero_url: /vertice/07/
+numero_texto: "N.º 7 · Enero de 1963"
+pagina: 11
+orden: 10
+autores: ["Eirene Rua"]
+permalink: /vertice/07/libertad-para-que/
+---
+
+*Recuadro en la página de la entrevista a Remo di Natale.*
+
+No me propongo glosar el libro de Bernanos en el cual se nos contesta el ¿para qué? de la libertad. Tan solo quiero hacerles a muchos la pregunta que yo me formulé hace ya varios años, cuando al escudriñar la vitrina de una librería europea llamó mi atención el título de la obra de ese autor: "Libertad ¿Para qué?". La pregunta me detuvo y no puedo negar que dada mi juventud llegó a desconcertarme. ¿Es que acaso algún hombre se atrevía a preguntar algo tan absurdo? Yo estaba convencida que era justamente la libertad la que contestaba a la angustia de los seres humanos, que era también mi propia angustia. ¡Libertad! ¡Libertad!: Sí, me dije entonces. Para vivir y para que los demás vivan. Para llevar a cabo ese cúmulo de proyectos que llevo dentro de mí y los hombres me impiden realizar. Para vivir libremente en definitiva, como todos los que están a mi alrededor dicen que se tiene que vivir. ¿Por qué Bernanos hacía una pregunta tan sin sentido? Caminé calle abajo pensando en el libro que no me atreví a comprar. Me pareció tan sin razón la pregunta. Ciertamente el mundo está loco, me dije en aquella hora. Años más tarde, aún sin saber la razón de ser de la obra de Bernanos, me convencí de que quien había formulado aquella pregunta no debía ser tan tonto como yo había creído.
+
+¿Y qué es la libertad?, me empecé a preguntar; y entonces me di cuenta que el vocablo LIBERTAD es uno de los más ofendidos por los hombres. Todos los que quieren aparentar que piensan se levantan y toman como bandera un nombre del cual no se han preguntado el ¿para qué? Cada quien ha interpretado el concepto como mejor compensa sus propios intereses. Estas abstracciones tan amplias, capaces de arrastrar a las masas, terminan por servir de mampara a los afanes obscuros y egoístas de nuestra propia naturaleza.
+
+Muy pocos quieren enfrentarse con la auténtica y real libertad. Aquella que permite al hombre desarrollarse de forma cabal en su total dimensión humana y divina, haciendo de sí mismo una creatura con trascendencia fuera de lo temporal. Todos, al contrario, siguen gritando sin sentido: Libertad, libertad, cuando ya se han precipitado en el caos que nos hace menos hombres y menos dignos. Tenemos que luchar con el fantasma que nos lleva a creer que el concepto de libertad no tiene más discusión. Al contrario, tenemos que plantearnos el problema en todos los campos de actuación humana en los cuales se toma la libertad como premisa previa. El espiritualista y el materialista que se dan cita para resolver un problema de libertad de prensa, por ejemplo, tendrán, para poder sacar fruto de la discusión, que partir de la base de que ambos tienen una diversa interpretación del concepto. La carencia de libertad en que vive la prensa de los países comunistas es considerada por los propios seguidores de Marx y de Lenín como una circunstancia indispensable para el triunfo de la revolución, mientras consideran como delito cualquier reglamentación de la prensa dentro de un régimen democrático. Es necesario analizar estas actitudes antes de comenzar a discutir en el aire cualquier tópico sobre la libertad.
+
+La bandera de la libertad mentirosa ha ganado puesto en el mundo y es necesario desenmascararla cuando todavía estamos a tiempo. El lema de "Libertad, Igualdad y Fraternidad" está pidiendo a gritos una revisión. No es necesario asustarse ni medrar por tal situación, pero es necesario callar a los corifeos que arrastran a los pueblos a la guerra y la muerte por unos conceptos que no tienen verdad. En nombre de la libertad ha saltado el salvaje mientras el hombre íntegro se ahoga en nuestras entrañas.
+
+Bernanos tenía razón: ¿para qué? ¿Para qué la libertad? Y es que no seremos libres mientras no nos detengamos a considerar la pregunta y decididamente actuemos como seres racionales. La libertad será entonces lo más definitivo y lo más fascinante. Lo que nos obliga y lo que nos impulsa. Lo que nos permite merecer o nos lleva a fracasar. Lo que hace de nuestra vida una aventura que incluye grandes riesgos.
+
+Es la libertad la que nos permite conjugar ese otro vocablo tan desusado en nuestro tiempo que es LA RESPONSABILIDAD. Porque somos libres somos responsables, y en la medida que seamos responsables seremos auténticamente libres. Nuestra cruzada, la cruzada de nuestro siglo XX tiene que cimentarse en la lucha por conseguir esa responsabilidad necesaria para que podamos verdaderamente decir que estamos luchando por la libertad. Lo demás huelga. Las palabras pasan. Lo único que permanece es la victoria efectiva. En vez de empuñar armas de fuego y gritar libertad, libertad, debemos responsabilizarnos por nuestra misión y tomar conciencia responsable de nuestra condición: La libertad, entonces, será el fruto jugoso de nuestro esfuerzo vivido responsablemente.
+
+Actuar, tomar sobre sí cargas sociales y políticas, cumplir los compromisos familiares, profesionales y cívicos, cueste lo que costare, es manifestación de un espíritu de responsabilidad. El bochinche, el atropello, la guachafita y el irrespeto son animaladas que no merecen ni pueden ser correspondidos con la libertad. Tomar conciencia de la necesidad de no emitir sonidos por la libertad mientras actuamos irresponsablemente, es algo que nos exige una sociedad cansada y herida por la secuela de vicios que ha dejado en ella el engaño como sistema.
+
+En los países donde la libertad es auténtica bandera vemos como ella es el precio justo de una profunda conciencia de responsabilidad colectiva. Por tanto, donde no hay tal manifestación de responsabilidad que exige sin duda desvelo y sacrificio, no podremos jamás pretender poseer esta bandera como nuestra. Los hombres han gritado a secas: LIBERTAD, y en nombre de ella se ha matado y se sigue ultrajando. La mayoría desconoce la auténtica dimensión de un derecho que nos dio Dios a los hombres para que lo gozáramos en proporción directa a nuestra responsabilidad. Bernanos tenía razón: ¿Para qué? ¿Para qué queremos la libertad si desconocemos lo que ella significa y supone?
+
+*Eirene Rua*
