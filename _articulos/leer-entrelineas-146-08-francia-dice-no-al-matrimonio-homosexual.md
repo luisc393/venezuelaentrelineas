@@ -7,9 +7,8 @@ numero_texto: "N.º 146 · Marzo de 2011"
 pagina: 8
 orden: 8
 seccion: "Noticias"
-resena: true
 autores: []
 permalink: /leer-entrelineas/146/francia-dice-no-al-matrimonio-homosexual/
 ---
 
-Nota breve sobre la decisión del Consejo Constitucional francés de considerar conforme a la Constitución la definición vigente del matrimonio, dejando cualquier cambio en manos del Parlamento.
+El Consejo Constitucional francés ha decidido que la prohibición del matrimonio entre dos personas del mismo sexo no viola la Constitución del país, y sólo el Parlamento puede decidir un cambio en la legislación, según la resolución publicada en su página web. Los nueve "Sabios" que lo componen recordaron que según los artículos 75 y 144 del Código Civil, "el matrimonio es la unión de un hombre y una mujer". Además el órgano francés indicó que el legislador, "en el ejercicio de su competencia, estimó que la diferencia de situación entre las parejas del mismo sexo y las parejas compuestas por un hombre y una mujer podría justificar una diferencia de trato en cuanto a las reglas de derecho de la familia". "No corresponde al Consejo Constitucional substituir su apreciación (la del legislador) a la hora de tener en cuenta esta diferencia de situación", explicó refiriéndose al Parlamento.
