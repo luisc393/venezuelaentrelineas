@@ -12,7 +12,8 @@ layout: default
     <p class="byline">{% if page.autores.size > 0 %}Por {% for a in page.autores %}<a href="{{ '/autores/' | relative_url }}#{{ a | slugify }}"><strong>{{ a }}</strong></a>{% unless forloop.last %}{% if forloop.rindex == 2 %} y {% else %}, {% endif %}{% endunless %}{% endfor %}{% else %}Sin firma{% endif %} · {{ page.numero_texto }}</p>
   </header>
   <div class="prose prose-drop">{{ content }}</div>
-  <p class="nota-transcripcion">Transcripción fiel del original impreso. Puedes ver la página tal como salió en el <a href="{{ numero.pdf | relative_url }}">PDF del número</a>.</p>
+  {% if page.resena %}<p class="nota-transcripcion">Reseña de la redacción{% if page.fuente %}. El texto original se tomó de {{ page.fuente }}{% endif %}. Puedes leerlo completo, tal como salió, en el <a href="{{ numero.pdf | relative_url }}">PDF del número</a>.</p>
+  {% else %}<p class="nota-transcripcion">Transcripción fiel del original impreso. Puedes ver la página tal como salió en el <a href="{{ numero.pdf | relative_url }}">PDF del número</a>.</p>{% endif %}
   <nav class="articulo-nav">
     {% for a in hermanos %}{% if a.url == page.url %}
       {% if forloop.first == false %}{% assign prev = forloop.index0 | minus: 1 %}<a class="prev" href="{{ hermanos[prev].url | relative_url }}"><span>← Anterior</span>{{ hermanos[prev].title }}</a>{% else %}<span></span>{% endif %}

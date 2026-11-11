@@ -23,7 +23,7 @@ layout: default
   {%- assign arts = site.articulos | where: "numero_url", page.url | sort: "orden" -%}
   {% if arts.size > 0 %}
   <section class="sumario">
-    <div class="rule-head"><h2>Lee el número, artículo por artículo</h2><span>{{ arts.size }} textos transcritos</span></div>
+    <div class="rule-head"><h2>Lee el número, artículo por artículo</h2><span>{{ arts.size }} textos</span></div>
     <ol>
       {% for a in arts %}
       <li>
