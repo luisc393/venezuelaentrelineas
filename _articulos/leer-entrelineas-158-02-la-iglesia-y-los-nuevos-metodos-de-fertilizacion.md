@@ -1,0 +1,27 @@
+---
+title: "La Iglesia y los nuevos métodos de fertilización"
+publicacion: Leer Entrelíneas
+numero: 158
+numero_url: /leer-entrelineas/158/
+numero_texto: "N.º 158 · Diciembre de 2012 y enero de 2013"
+pagina: 2
+orden: 2
+autores: ["Padre José Alexis Sánchez Pérez"]
+permalink: /leer-entrelineas/158/la-iglesia-y-los-nuevos-metodos-de-fertilizacion/
+---
+
+El mundo de hoy vive una realidad en la que se confunde el concepto de libertad y de autonomía; hemos entendido que la libertad, especialmente aquella que llamamos “libertad de conciencia” se refiere al hecho de hacer las cosas según las deseamos y nos satisfagan los deseos o caprichos, los proyectos y aspiraciones que consideramos suficientemente necesarios para vivir el aquí y el ahora; sin importar ni considerar el verdadero fin del hombre creado a imagen y semejanza de Dios que está llamado a la trascendencia y a la vivencia plena de la felicidad eterna.
+
+En ese afán de hacer las cosas, sólo como las consideramos nosotros, dentro de un ambiente hedonista y superficial que ofrece satisfacción de emociones y logros basados únicamente en el ámbito de lo material y pasajero; nos encontramos con nuestra Iglesia, madre y maestra que se esmera por hacer de nuestra vida no sólo un tránsito pasajero y limitado por un mundo impersonal y competitivo; sino que busca en todos los hombre y mujeres un comportamiento coherente y equilibrado que le ayude a desarrollar la plenitud de su ser transcendente y espiritual.
+
+Igualmente es necesario tener claro que Dios ha permitido al hombre la inteligencia y la capacidad para profundizar en el por qué de las cosas y de las realidades que lo circundan en su paso por el mundo material; pero es igualmente necesario recordar y tener claro que “la naturaleza intelectual de la persona humana se perfecciona y debe perfeccionarse por medio de la sabiduría, la cual atrae con suavidad la mente del hombre a la búsqueda y al amor de la verdad y del bien” (GS 15); de la misma manera la instrucción Donum Vitae advierte: “la ciencia y la técnica exigen el respeto incondicionado de los criterios fundamentales de la moralidad: deben estar al servicio de la persona humana, de sus derechos inalienables y de su bien verdadero e integral según el plan y la voluntad de Dios”
+
+Los hijos son un don de Dios, (cfr. GS 50) los hombres no pueden exigir el derecho de tener hijos: “Un verdadero y propio derecho al hijo sería contrario a su dignidad y a su naturaleza. El hijo no es algo debido y no puede ser considerado como objeto de propiedad: es más bien un don, el más grande” (Donum Vitae). Desde esta realidad se puede entender con mayor claridad que todo esfuerzo que se realice, fuera del acto natural, de lo normalmente querido por Dios, para conseguir un hijo, para “adquirir un hijo”, es contrario a la voluntad de Dios que, desde el inicio, bendijo al hombre y a la mujer para que unidos en un amor fecundo pudieran multiplicar la tierra (Cfr. Gn 1, 22-31).
+
+Los métodos de fertilización artificial que encontramos en la actualidad: inseminación artificial o In vitro: homóloga y heteróloga; son fruto del crecimiento de los problemas de fecundación que encontramos en las parejas; no se puede negar que “La esterilidad no obstante, cualquiera que sea la causa y el pronóstico, es ciertamente una dura prueba” (cfr. Donum Vitae) los esposos llegan a sentir y a concluir que sin los hijos es imposible materializar su amor y que no es justo; por lo que es necesario recordarles que: “Los esposos que se encuentran en esta dolorosa situación están llamados a descubrir en ella la ocasión de participar particularmente en la cruz del Señor, fuente de fecundidad espiritual…
+
+La esterilidad física, en efecto, puede ser ocasión para los esposos de hacer otros importantes servicios a la vida de las personas humanas, como son, por ejemplo, la adopción, los varios tipos de labores educativas, la ayuda a otras familias, a los niños pobres o minusválidos” (Donum Vitae 8).
+
+La iglesia no pretende inmiscuirse en la intimidad personal de la pareja humana, ella quiere ser instrumento y guía para que podamos ser coherentes entre lo que decimos y hacemos; Ella quiere ayudar a todos sus hijos, para que, en los momentos más difíciles de nuestra existencia, no olvidemos nuestra realidad de hijos de Dios llamados a actuar según su voluntad y no nuestros caprichos. La Iglesia tiene la obligación de mostrarnos el camino de la verdad sean cuales sean las circunstancias que nos rodean, por lo tanto, en este particular: “La Iglesia desea que todos comprendan la incompatibilidad que existe entre el reconocimiento de la dignidad de la persona humana y el desprecio de la vida y del amor, entre la fe en el Dios vivo y la pretensión de querer decidir arbitrariamente el origen y el destino del ser humano” (Donum vitae)
+
+Los hombres de nuestra época no podemos ser incoherentes y dejar que las realidades de un mundo que no respeta la dignidad del ser humano y su condición de Hijos de Dios sean las que nos muevan; tenemos que ser humildes y capaces de confiar en el amor misericordioso de Dios que no quiere el mal para sus hijos y que, desde el inicio de la creación, nos dio la responsabilidad de “dominar lo creado” como obra máxima de la creación. No permitamos que la soberbia nos lleve a “querer ser como dios” no aceptando nuestros límites y manipulando las realidades del mundo sólo para conseguir nuestros objetivos y deseos egoístas desencarnados de nuestra realidad de hombres y mujeres de Fe, que creen en Dios TODOPODEROSO e infinitamente Justo.
