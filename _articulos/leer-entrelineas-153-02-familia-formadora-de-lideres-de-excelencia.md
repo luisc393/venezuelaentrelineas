@@ -1,0 +1,20 @@
+---
+title: "Familia: formadora de líderes de excelencia"
+publicacion: Leer Entrelíneas
+numero: 153
+numero_url: /leer-entrelineas/153/
+numero_texto: "N.º 153 · Marzo de 2012"
+pagina: 2
+orden: 2
+seccion: "Curso de orientación familiar (parte II)"
+autores: ["Rosalba Bortone Di Muro"]
+permalink: /leer-entrelineas/153/familia-formadora-de-lideres-de-excelencia/
+---
+
+La Familia ha sido, es y será la primera organización a la cual todo ser humano tiene derecho por lo que tenemos la obligación de cuidarla y protegerla, así como se protege el hábitat de la naturaleza: los árboles, ríos, mares, bosques, y toda especie animal y vegetal. Desde esta óptica la Familia sustentada en el matrimonio es el hábitat natural, en dónde las personas, nacemos, crecemos y tenemos derecho a morir como seres humanos acorde con nuestra dignidad natural.
+
+Esta organización primaria, es el primer contacto que tiene el niño con sus padres, para aprender de ellos, a vivir y a convivir, a través de sus enseñanzas y modelajes, muy especialmente todos los valores y virtudes humanas que harán del niño un ser humano íntegro. De otra parte, la necesidad humana de la Familia estable y nutridora, es una realidad a la cual debe propender la sociedad venezolana, sobre la base de relaciones de amor estables y permanentes de los esposos, haciendo así posible, el fin para el cual esta organización natural, primaria e insustituible, cumpla con su misión: el desarrollo pleno de la personalidad de las personas que las integran, unidas por lazos de amor conyugal -esposos, de padres e hijos-filiales, entre hermanos-fraternales, en la consolidación de Familias sólidas como única vía hacia el logro de Líderes Auténticos de Excelencia Transformadores, capaces de consolidar una sociedad madura, en la consecución del desarrollo socio-económico-políticogremial-cultural-deportivo-asistencial, en nuestra querida patria venezolana.
+
+La educación de los hijos desde el espacio familiar debe propender hacia la formación de una nueva propuesta de lo que hemos denominado líderes auténticos que requiere nuestra sociedad, hecho posible desde la base de valores humanos que sustentan sus conductas por lo que responden a un estilo de vida personal, consistente y congruente de lo que piensan, dicen y hacen; inspirando la confianza incondicional de las personas con las cuales cotidianamente comparten sus vidas en todo y cada uno de los contextos en los cuales se desenvuelven: familiar, social, empresarial, gremial, político, cultural, asistencial, entre otros. Estas conductas son fácilmente identificables porque se reflejan en sus hábitos y actitudes cotidianas, fácilmente observados en comportamientos virtuosos, conectados con ser mejores personas. Tales virtudes, hábitos o actitudes se expresan en el hecho de ser cada día mejor persona, esto es, más ordenado, sincero, amigo, respetuoso, amable, optimista, justo, sociable, paciente, prudente, flexible, honesto, generoso, audaz, entre otras muchas.
+
+Ahora bien, ¿Por qué la familia es considerada por los expertos como organización natural y primaria? ¿Por qué la familia debe y puede formar líderes auténticos de excelencia transformadores? Porque es propio y natural a la ecología humana, es decir, a la naturaleza de las personas, tener una Familia en dónde se nos quiera, alimente, eduque, cuide a las personas en todos los sentidos, y por tanto, la Familia, es irrenunciable en estas sus funciones. La misión del padre y de la madre, de los hermanos, es insustituible, es decir, ninguna otra organización, le puede brindar lo que sólo a ella le compete, por esta razón, ninguna otra organización, puede suplantarla o sustituirla. En consecuencia, la familia no es invención social, por cuanto “….tendría que ser reinventada en cada cultura, en cada época, en cada contexto ideológico. Y sin embargo, la familia permanece” (Fernández, 1982, p. 4), y de hecho ha permanecido y permanecerá en el tiempo, pasando a través de todos los embates de la vida….y demostrándonos sabiamente en todos las épocas de la historia de la humanidad, que ella es inherente a la naturaleza humana.
