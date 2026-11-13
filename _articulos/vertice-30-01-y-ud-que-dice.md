@@ -85,7 +85,6 @@ Sin más que añadir por el momento, dándole las gracias de antemano por la pub
 Atentamente,
 
 *Rodolfo E. Calixto S.*
-Avenida El Parque, N.º 3
 Maracay.
 
 **R.**— Estimado Rodolfo:
