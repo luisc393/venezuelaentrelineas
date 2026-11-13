@@ -237,7 +237,8 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .site-footer li { margin-bottom: 6px; }
 .site-footer a { color: #dbe3ff; text-decoration: none; }
 .site-footer a:hover { color: #fff; }
-.footer-base { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.2); margin-top: 32px; padding-top: 16px; font-family: var(--sans); font-size: 12px; }
+.footer-base { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.2); margin-top: 32px; padding-top: 16px; font-family: var(--sans); font-size: 12px; flex-wrap: wrap; gap: 8px 24px; }
+.footer-credito a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
 /* Ajustes */
 @media (max-width: 719px) {
