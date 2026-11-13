@@ -3,7 +3,7 @@ title: "Presiones sobre los estudiantes latinoamericanos"
 publicacion: Vértice
 numero: 40
 numero_url: /vertice/40/
-numero_texto: "N.º 40 · Febrero de 1967"
+numero_texto: "N.º 40 · Febrero-marzo de 1967"
 pagina: 28
 orden: 14
 seccion: "Internacional"
