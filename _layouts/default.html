@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="{{ page.lang | default: site.lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,6 +20,7 @@
       <span class="topbar-date" id="hoy">Caracas, Venezuela</span>
       <span class="topbar-links">
         <a href="https://x.com/VzlaEntrelineas" rel="noopener">@VzlaEntrelineas</a>
+        {% if page.lang == 'en' %}<a href="{{ '/' | relative_url }}" hreflang="es" lang="es">Español</a>{% else %}<a href="{{ '/en/' | relative_url }}" hreflang="en" lang="en">English</a>{% endif %}
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       </span>
     </div>
@@ -29,16 +30,23 @@
       <a class="wordmark" href="{{ '/' | relative_url }}">
         <span class="logo" aria-label="Venezuela Entrelíneas">Venezuela<span class="entre">entre</span>líneas</span>
       </a>
-      <p class="masthead-tag">{{ site.tagline }} · Noticias buenas desde 1996</p>
+      {% if page.lang == 'en' %}<p class="masthead-tag">Good news from Venezuela since 1996</p>{% else %}<p class="masthead-tag">{{ site.tagline }} · Noticias buenas desde 1996</p>{% endif %}
     </div>
   </header>
   <nav class="mainnav" aria-label="Secciones">
     <div class="wrap mainnav-inner">
+      {% if page.lang == 'en' %}
+      <a href="{{ '/en/' | relative_url }}" class="activo">About</a>
+      <a href="{{ '/leer-entrelineas/' | relative_url }}">Leer Entrelíneas</a>
+      <a href="{{ '/vertice/' | relative_url }}">Vértice</a>
+      <a href="{{ '/' | relative_url }}" lang="es">Sitio en español</a>
+      {% else %}
       <a href="{{ '/' | relative_url }}" {% if url == '/' %}class="activo"{% endif %}>Portada</a>
       <a href="{{ '/leer-entrelineas/' | relative_url }}" {% if url contains '/leer-entrelineas/' %}class="activo"{% endif %}>Leer Entrelíneas</a>
       <a href="{{ '/vertice/' | relative_url }}" {% if url contains '/vertice/' %}class="activo"{% endif %}>Vértice</a>
       <a href="{{ '/nuestra-historia/' | relative_url }}" {% if url contains '/nuestra-historia/' %}class="activo"{% endif %}>Nuestra historia</a>
       <a href="{{ '/participa/' | relative_url }}" class="nav-cta{% if url contains '/participa/' %} activo{% endif %}">Participa</a>
+      {% endif %}
     </div>
   </nav>
 
@@ -50,7 +58,7 @@
     <div class="wrap footer-grid">
       <div>
         <p class="footer-brand logo logo-claro">Venezuela<span class="entre">entre</span>líneas</p>
-        <p>{{ site.tagline }}. Sembrando valores, esperanza y paz desde 1996.</p>
+        {% if page.lang == 'en' %}<p>“Great lines for a better Venezuela.” Sowing values, hope and peace since 1996.</p>{% else %}<p>{{ site.tagline }}. Sembrando valores, esperanza y paz desde 1996.</p>{% endif %}
       </div>
       <div>
         <p class="footer-title">Secciones</p>
@@ -78,8 +86,10 @@
   <script>
     (function () {
       try {
-        var d = new Date().toLocaleDateString('es-VE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/Caracas' });
+        var en = document.documentElement.lang === 'en';
+        var d = new Date().toLocaleDateString(en ? 'en-US' : 'es-VE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'America/Caracas' });
         document.getElementById('hoy').textContent = d.charAt(0).toUpperCase() + d.slice(1) + ' · Caracas';
+        if (en) { document.getElementById('hoy').textContent = d + ' · Caracas, Venezuela'; }
       } catch (e) {}
     })();
   </script>
