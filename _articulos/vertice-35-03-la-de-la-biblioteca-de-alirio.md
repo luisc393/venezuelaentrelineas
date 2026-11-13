@@ -1,0 +1,26 @@
+---
+title: "Reflexiones ante una puerta: la de la biblioteca de Alirio"
+publicacion: Vértice
+numero: 35
+numero_url: /vertice/35/
+numero_texto: "N.º 35 · Junio de 1966"
+pagina: 4
+orden: 3
+seccion: "Reflexiones"
+autores: ["Alicia Álamo Bartolomé"]
+permalink: /vertice/35/la-de-la-biblioteca-de-alirio/
+---
+
+Un disparo. Un hombre con el rostro ensangrentado se derrumba sobre la alfombra de su propia biblioteca. Un rencor más en el ámbito político nacional. Una familia feliz deja de serlo. Un suicidio. Algunos dicen que no, pero es difícil creer en otra hipótesis. La casa estaba llena de amigos y periodistas, un asesino tenía pocas probabilidades de pasar desapercibido. Prefiero pensar en la hipótesis del suicidio. Me habla de la súbita debilidad de la mente y el corazón de un hombre acorralado y no de la pasión política y la corrupción de otro o de otros. Es negativo el suicidio, cristiana y civilmente rechazable, pero es humanamente más aceptable, menos dañino socialmente que la perversidad en la política. Tampoco es sano insistir —aceptando el hecho establecido por la policía— en decir que si bien el gatillo no lo apretó mano extraña a la víctima, éste ya había sido apretado por el momento histórico de un partido o la vuelta de espaldas de un amigo. No. Es malsano. Es querer provocar una cadena de rencores que hará más daño que la muerte. Si hubo un episodio triste y mezquino, todos sabemos que en el fondo no es ajeno al afán bajo de la política. Y hace tiempo dejó su altura la política partidista y pre-electoral por las latitudes donde corre sangre latina.
+
+Se hizo daño a un hombre. Eso es cierto. Pero este mismo daño en otros hombres hubiera tenido reacciones diferentes. Hay quien se crece en la adversidad. Hay quien no la resiste. Hay seres menos sensibles que no tienen capacidad de amar o de sufrir hasta el grado superlativo de perder la razón. Y hay poetas que tienen el espíritu o el mundo emocional como una cuerda tensa de la cual se sacan exquisitas melodías, pero que se puede romper por exceso de tensión o furores de huracán.
+
+Ugarte Pelayo era un poeta. No solamente porque hubiera hecho versos. Era una personalidad de poeta, bien lo dijo Ramos Calles. Un poeta en el mundo de la política es una débil barquilla en medio de la tempestad. Desde antes de nacer, como él mismo lo dijera, fue piedra de contradicción. El dolor siempre estuvo rondándole y golpeándole. A cada paso que daba, una vuelta de clavija tensaba más su cuerda. La última, violenta, dada por la mano fría y cruel de la política en un país convulso, terminó por romperla. Se quebró esa cuerda sutil de la lira del poeta.
+
+Veo a Alirio Ugarte Pelayo como una víctima de la dispersión. Este es un mal nacional. Venezuela es un país joven, despoblado, incipiente en educación, cultura, política y mil capítulos más. Hay muy pocas manos capaces para resolver los infinitos problemas del desarrollo. Hacen falta cabezas experimentadas, falta madurez. Si un joven demuestra capacidad y clara inteligencia en un camino, en seguida se le empalman veinte más. Se ve envuelto, no puede evadirse. Se ve sometido a una compulsión de necesidades que reclaman su atención. Entre nosotros, los hombres que trabajan son pocos, porque somos pocos habitantes y pocos han tenido la oportunidad de una verdadera formación. Y esto en el mundo de la política. Y esto en el mundo de la producción. No hay tiempo de ser poeta porque al poeta, con su mente clara, se le reclama como emergente en una labor perentoria de orden práctico en la vida social. El resultado es que entre nosotros hay muchas personas que se ven obligadas a tener un “violín de Ingres” como profesión de toda la jornada y una vocación como “violín de Ingres” dominical. Cualquier siquiatra convendrá conmigo en que esto es peligroso para la estabilidad emocional. Es marchar a contrapelo. Es una anomalía que nos vemos obligados a ver como normal. Entre nosotros abundan los “toderos”. Y corren peligro.
+
+Señalo el mal frente a esta puerta de la biblioteca de Alirio donde se rompió su juventud en plena actividad creadora. Sacrificio inútil. No me cabe a mí señalar solución a este tipo de problemas, ni a otros, como pretende un estimado crítico y amigo de mi “puerta” en la sección de cartas de los lectores en un “Vértice” anterior. El mundo vive una era tal de adelantos y especialidades y los hombres deben trabajar en equipos y no como hombres-equipo. Si me meto a dar soluciones sólo ganaré una dispersión más y ya tengo una triple: me muevo en los mundos de la arquitectura, el periodismo y el teatro. Constantemente la gente me quiere empujar a otras labores de orden social, crítico, etc. He ofrecido el “no” de una resistencia que a lo mejor algún día alguien llegue a quebrar, hasta que me quiebre también yo. Espero que eso no suceda. Mi triple dispersión ya es suficiente. Y sólo tengo una verdadera vocación, la única que no me ha producido jamás ni la imagen lisa de un bolívar: el teatro.
+
+Como reflexión final, sólo se me ocurre, en la imposibilidad de aportar una solución, hacerle a tanto hombre-equipo que conozco, con palabras de un proverbio chino o árabe —ya no recuerdo— esta advertencia: “Tómate tus días, es más tarde de lo que tú crees”.
+
+Tarde era ya para Alirio y se hundió en la historia.
