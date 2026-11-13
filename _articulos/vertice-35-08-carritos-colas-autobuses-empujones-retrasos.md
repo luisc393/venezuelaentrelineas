@@ -1,0 +1,58 @@
+---
+title: "Carritos, colas, autobuses, empujones, retrasos"
+publicacion: Vértice
+numero: 35
+numero_url: /vertice/35/
+numero_texto: "N.º 35 · Junio de 1966"
+pagina: 13
+orden: 8
+seccion: "Cuerpo central"
+autores: ["Armando Pérez Gornés"]
+permalink: /vertice/35/carritos-colas-autobuses-empujones-retrasos/
+---
+
+Para los que andan en Caracas en sus carros particulares diariamente quizás no tenga importancia el problema que significa trasladarse por Caracas en los medios públicos: carritos “por puesto”, autobuses y “libres”. No será porque le quiten importancia a propósito sino porque no lo han captado, porque para advertir lo que significa para los usuarios de estos transportes, hay que serlo.
+
+Para muchos habitantes de Caracas los autobuses y los carritos son algo con lo que tienen que enfrentarse diariamente. Unos para ir a la escuela, al colegio, o a la universidad, otros para sus sitios de trabajo. La mayoría tienen sus horas fijas y para colmo coinciden. Otras personas, cobradores, office-boys, y similares, están todo el día, o la mayor parte de él, encima de alguno de estos aparatos, si es que no tienen moto.
+
+Para los que tienen horas más o menos fijas es una verdadera tortura. Por una parte tienen que salir una hora antes o más para poder llegar a tiempo, después vienen las colas, los empujones, los atropellos, etc.
+
+### Los carritos
+
+Todos conocemos la ya clásica división de los carritos en: “POR PUESTO” y “LIBRES”. Ambas especies de carritos tienen sus características muy particulares. Los “por puestos”, los más usados por cierto, tienen a su vez dos clasificaciones: los de “Línea” y los “Piratas”. Las líneas suelen ser asociaciones civiles, uniones de choferes, o cooperativas. Los “Piratas” son “Libres” que se meten a “por puestos”.
+
+Para los pasajeros de los carritos, cada carrito puede esconder una sorpresa. Porque entre los choferes hay de todo, como es natural, y entre los pasajeros también. Choferes hay, que al entrar el pasajero le dan los buenos días, o las buenas tardes. Otros echan un gruñido porque el pasajero se dilató mucho en entrar, o porque no cerró la puerta bien —porque casi nunca cierran— y tuvo que repetir la operación. Después los choferes se “empujan”, porque eso es lo que hacen, “como alma que lleva el diablo” por las calles y avenidas; otros, en cambio, desesperan con su paso de morrocoy al señor más calmado y con menos ocupación que se monte en el carro.
+
+Por supuesto, los carritos de “líneas” tienen colas en los terminales. Esto se puede decir que lo agradece cualquiera. Pero los pasajeros que esperan y esperan en las horas críticas, en medio de la ruta, se quedan a la expectativa por bastante tiempo a no ser que aparezca un “pirata”. Para montarse en un “pirata” en la esquina de Carmelitas, hay que tener suerte, fuerza y agilidad. Normalmente incluso los más caballerosos que pululan por Caracas, se olvidan de la etiqueta cuando llevan media hora esperando y son las doce y media… Se ve llegar un carrito con un puesto, se acerca a la acera y, saltan los que esperan: en la lucha vencen los más fuertes y ágiles. Una vez dentro, el chofer se lanza con su carro último modelo o con su “cacharra” por entre el tráfico. Si le toca un modelito pasado de moda, seguro que le sucederá que sudará como un condenado, porque el motor más que de carro parece de una locomotora de cuando eran de vapor. Además que no ganará para sustos, porque de frenos ni hablar.
+
+Los “libres”, que son la otra especie de los carritos, también tienen sus características. También los hay de “línea”, los más responsables y felices de todos. Se puede decir felices porque se pasan la mayor parte del día sentados en amena conversación, y los clientes les vienen solos: los llaman por teléfono o los van a buscar. Los que andan por su cuenta, muchas veces caen en la tentación de meterse a “piratas”. Y cuando no, también. Pero, cuando consiguen una carrera es cuando más sacan el “garfio”. Porque ¡cómo asaltan! La verdad es que no hacen el abordaje, ya que esto lo hace el necesitado cliente pero sí hacen el asalto. No todos, por supuesto, porque entre ellos hay de todo como en todas partes.
+
+### Los autobuses
+
+Este es un mundo aparte al de los carritos, especialmente por los pasajeros, por los choferes, y por el aparato en cuestión. En principio, en todas las paradas hay colas, bastante ordenadas por cierto y de las cuales se salvan muy pocos. En este medio de transporte por supuesto que no se ve ningún profesional universitario a no ser algún caso excepcional —que los hay—. En cambio, muchos liceístas, universitarios, trabajadores, etc. Tampoco se ve nunca a un político o a uno de los representantes del pueblo en el Congreso Nacional o el Concejo Municipal.
+
+En cuanto a los choferes son más humanos que sus colegas de los “por puestos”, aunque no siempre, porque algunas veces se ponen a la altura de los que transportan ganado a los mataderos. Meten gente, y meten, para cargar más, y más, etc. Es la visión de cualquiera que se pare en Chacao —por ejemplo— y ve venir los autobuses procedentes de Petare; o en la Avenida Urdaneta. Pero tampoco es culpa de los choferes; a ellos les debe dar lástima ver ese gentío que se pasa tiempo y tiempo en las paradas, aparte de que la gente asalta a los autobuses. Pero resulta que se le ocurre a alguien poner una nueva línea de autobuses y los propietarios de las empresas particulares saltan, y gritan sus protestas. Claro, porque ahora hacen lo que quieren: tienen sus autobuses que apenas caminan, sin vidrios, sin puertas, los asientos rotos, la suciedad campea en el interior de los mismos, y siguen cobrando y transportando gente tan tranquilos. Y mientras tanto, los pasajeros… ¡que se hundan! En el Instituto Municipal de Transporte Colectivo (IMTC) ocurre lo contrario; se espicha un caucho o se rompe un asiento, o se le ensucia el carburador, inmediatamente los retiran y los van almacenando nuevecitos hasta que el tiempo y la intemperie realicen su labor, porque también hay que darle que hacer al tiempo y a la intemperie. Y claro, tienen que comprar nuevos autobuses en el Brasil y así alguien puede hacer un viajecito para firmar el contrato. Estos tampoco son suficientes y también van llenos totalmente. Las colas en Chacaíto son interminables durante varias horas al día.
+
+### Los pasajeros
+
+Son gente que después de hacer una cola por un buen rato o de haber esperado en una parada logran introducirse dentro del aparato de que se trate. Los pasajeros de los carritos “por puesto” son distintos a los de los autobuses. La diferencia fundamental está en las manías. Y la similitud en el no pensar que puedan estorbar. Los de los carritos, en su generalidad, tienen la manía de mantener la “punta”. Se suba o se baje alguien, los que tienen “las puntas” prefieren salirse y meterse, y meterse y salirse, a perder su preciado puesto. Las mujeres tienen una especialidad: cerrar los vidrios para no despeinarse, aunque sean las doce meridiano o las tres p.m. Y los demás: con ese calorón. Otra manía es que varios lleven radio de transistores prendidos, además del radio del carro. Otra pagar después de bajarse, y así muchas más, como el decir de pronto: “déjeme aquí”, cuando el carrito va por el canal del centro; el chofer empieza a hacer intentos desesperados para acercarse a la acera y el pasajero sigue insistiendo “que me deje aquí” o “aquí está bien, déjeme ya”. Cuando bajan, normalmente no dan ni las gracias, sino que incluso protestan.
+
+Los pasajeros de los autobuses lo primero que hacen es buscar puesto. Las del sexo débil lanzan miradas a los caballeros, intentando que alguno le ceda su asiento. Cuando ya no hay más posibilidades de asiento la gente se “apelotona” a la entrada del autobús, y por más que el chofer pida que, “por favor, se vayan para atrás”, nadie se mueve. Normalmente en los autobuses se crea una corriente de solidaridad poco frecuente, quizás por sentirse todos unidos ante el peligro, porque, dicho sea entre paréntesis, los choferes no frenan sino en caso de emergencia. Cuando se acerca una parada, todos los que van a bajarse se ven en la obligación de tocar el timbre, y se oyen cinco o seis timbrazos (depende de las paradas). El autobús se detiene —normalmente queda un charco o un hueco frente a la puerta— y comienza el proceso de atravesar el pasillo dando codazos y patadas entre los apretujados pasajeros para tratar de llegar a la puerta. Cuando alguno lo logra, los de atrás gritan al chofer “ya cayó”; pero siempre queda alguno sin caer y cuando el chofer arranca empieza la gritadera de los de atrás, gritadera en la que casi se hace aparecer al chofer como un asesino.
+
+### Las colas
+
+Esta es una institución laudable porque es signo de orden y de disciplina. Pero también es algo para criticar porque no hay razón para que la gente tenga que pasar por esto todos los días durante buenos ratos. Mientras la gente espera en las colas se divierte de distintas formas, normalmente metiéndose con los demás compañeros de espera o con los transeúntes. Las colas, como es lógico, tienen sus sitios fijos, y además se concentran en los mismos sitios de la ciudad: Santa Teresa, Miracielos, Plaza Miranda, Chacaíto. Usualmente las colas miden una cuadra, de lo contrario se encontrarían.
+
+Junto a las colas proliferan los vendedores de imágenes religiosas, de estampas de María Lionza, de hojillas, de lotería. En Chacaíto, junto a las colas se han montado incluso ventas de café y empanadas, con una gran visión social, ya que de lo contrario muchos desfallecerían en la espera.
+
+### El Metro
+
+Después de profundas investigaciones y estudios de los problemas del tránsito y el transporte en Caracas se llegó a una conclusión —no se sabe si sabia—, pero al fin y al cabo una conclusión: Caracas necesita un Metro. Todavía no lo tenemos, pero ya existe una oficina del Metro con personal y todo. Es una esperanza.
+
+### Y mientras tanto
+
+Mientras tanto habrá que esperar, podrían pensar muchos; pero quizás muchos de todos estos inconvenientes se suavizarían si todos pensáramos más en los demás y un poco menos en la comodidad personal de cada uno. Si los empresarios de las líneas particulares de autobuses no tuvieran inconvenientes en aceptar la competencia, si los pasajeros de los autobuses trataran de dar facilidades a los demás y trataran de no molestar caminando hasta el fondo del pasillo cuando no quedan asientos libres, o acercándose a la puerta cuando van llegando a su parada, o, si oyen que alguien ya tocó el timbre, confiar en los oídos del chofer, etc., etc. Y los de los carritos “por puestos” cerrando las puertas con un poco más de delicadeza, y las señoras y señoritas permitiendo que los demás pasajeros respiren el aire impuro de la calle, y los que fuman tabaco esperando un rato hasta bajarse. Y los choferes intentando manejar sin que los pasajeros vayan dando brincos y saltos dentro de la lata de sardinas o autobús, o limpiando el carrito por dentro para que los clientes no se ensucien. Se podrían multiplicar los ejemplos de detalles que harían más llevadera la convivencia entre los habitantes de esta mal llamada “sucursal del cielo” que es Caracas.
+
+Gran parte de los problemas del tránsito caraqueño se reducen también a ésta: a la intemperancia. La mayor parte de las “galletas” que se “arman” en el tránsito tienen lugar porque todos quieren pasar primero y más rápido. O porque hay muchas personas que se van a pasear por las autopistas, y por el canal de ochenta se desplazan a cuarenta, y así tantas cosas de esta contradictoria metrópoli donde cada ciudadano quiere ganar el título de “el pájaro más bravo de la ciudad”.
+
+*Pie de foto: Alguna que otra vez un poco de descanso.*
