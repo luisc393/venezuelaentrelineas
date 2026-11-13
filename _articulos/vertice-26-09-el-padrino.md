@@ -1,0 +1,34 @@
+---
+title: "El padrino"
+publicacion: Vértice
+numero: 26
+numero_url: /vertice/26/
+numero_texto: "N.º 26 · Abril de 1965"
+pagina: 11
+orden: 9
+seccion: "Tribuna universitaria"
+autores: ["Wolf Petzall"]
+permalink: /vertice/26/el-padrino/
+---
+
+*Un profesor sueña con agosto*
+
+Los estudiantes están de gala. Descartados están los pantalones de kaki a medio planchar, y tampoco es día de camisa deportiva. Hoy no sólo algunos, sino todos están afeitados y de corbata. ¿Y las muchachas? Los peinados hace pocas horas han emergido de las peluquerías; las uñas engalanadas, las sedas y los tacones altos. El profesor habla, y hoy no hay cuchicheos, no hay arrastrar de sillas ni chirrido de espaldares. Aquél, el de los anteojos, que se pasó cinco años tomando dictado de apuntes…, milagro prodigioso: mira al profesor y escucha, aunque no sin que le tiemblen un poco los dedos de las ganas de anotar también aquello. El otro, que siempre tenía algo que criticar, parece desconcertado ante el evento. Para el profesor, todos se ven muy distintos, y sin embargo, tan iguales como los ha ido viendo ya durante años. Mientras hilvana las frases, mejor preparadas que las de muchas clases, piensa en todo lo que él sabe que sus muchachos no saben todavía. Piensa en los que van a comprar ventajas materiales y vender sus ilusiones; piensa en los que no van a saber llegar al balance entre las realidades de la vida y sus sueños juveniles. ¿Aquel estudiante brillante, podrá aguantar el tedio de la rutina y convertirse en un profesional eficaz? ¿Y aquel otro, que siempre jugaba sobre seguro, sabrá aprovechar una oportunidad y no temer el riesgo? Y, principalmente, piensa: ¿Qué pensarán de la Universidad dentro de tres meses? ¿Y qué pensarán de mí dentro de algunos años cuando ya no seamos profesor y alumno, sino colegas? Y más todavía: Estas cosas que estoy diciendo ahora, buscando unir sabiduría profesional y afecto, ¿por qué no las habré dicho hace mucho tiempo? ¿Por qué tiene que ser ahora, al último minuto, cuando ya es tarde, porque ya todo ha terminado?
+
+No es ficción. Allí están los alumnos que ya casi no lo son. Se gradúan mañana. Y en el estrado, en el sitio de honor, el profesor que hoy es algo más: es el padrino de la promoción.
+
+Quizás conmovido por una prueba de aprecio que no esperaba, al profesor le pasa lo que a todos los padrinos: la tristeza, a veces pequeña y a veces grande, de que su papel es un poco decorativo, que aquel lazo de parentesco que lo hace miembro de la familia estudiantil, es efímero. El ser padrino implica responsabilidades, implica tener derecho y deber de ser un poco padre. Pero, ¿cómo ser eso para unos nuevos hijos que pocas horas más tarde se dispersarán? El placer del afecto mutuo, de la confianza, del entendimiento en un lenguaje común, es tan breve. Alguna ceremonia más, unas cuantas fiestas, muchos abrazos, muchos saludos a papás orgullosos y a mamás con medallas al cuello, alguno que pasa para que le firmen el título, y adiós. ¿Cómo ser padrino cuando no se ven los ahijados? Y sin embargo, allí está el padrino, tratando de que todo quede bien, que sus muchachos salgan contentos de la Universidad.
+
+Y días más tarde, al reflexionar, aquel profesor piensa que ya sus estudiantes no son los muchachos del comienzo, que son hombres y mujeres, que tienen familia propia y no necesitan realmente el padrino… que allí el mundo estuvo un poco al revés, porque fueron los alumnos los que “le dieron una clase” a su profesor.
+
+Y cuando mira a su alrededor, al pasar por los corredores, ve de repente que la Universidad para muchos otros es un orfanatorio. Muchos, separados de su terruño, de su ambiente, de sus familias, huérfanos de afecto y de orientación, sordos porque no entienden lo que se les dice, mudos porque no saben responder. Estudiantes que están en cursos multitudinarios, cuya individualidad se reduce a unas perforaciones en unas tarjetas. En jóvenes que todo lo encuentran nuevo, todo impresiona y muchas corrientes que arrastran. Es el estudiante que para convencerse de que él todavía existe, a veces tiene que gritar; es el de las dudas vocacionales, el de problemas de conducta, el que no le alcanza la plata. Es la muchacha que quisiera tener muchos amigos y no halla en quién confiar, la que quisiera libertarse de los últimos cercos de su libertad pero teme las consecuencias, la que no está segura si busca la ciencia o la independencia. Y nadie sabe cómo se llaman, porque son miles: fichas en un tarjetero, firmas al pie de un examen; todos, personas que quieren serlo todo; todos llenos de entusiasmo, y sin embargo, allí, en el primer año de la Universidad, no son nadie.
+
+¿Quién se ocupa del novato universitario? Poco más que los que quieren algo de él: su voto, su sangre, su mente. Pero pocos quieren darle apoyo, consejo, para que haga uso de su libertad con responsabilidad, para que se oriente, para que reflexione y decida por sí solo. ¿Dónde está el padrino del nuevo estudiante? ¿Dónde está esa puerta que él puede tocar porque sabe que tiene derecho a hacerlo, y que alguien le va a dedicar algún tiempo a él, a su persona, como individuo y no como número? ¡Qué maravilla sería tener un sistema tutorial en la Central, con atención a cada persona como tal, para cultivar sus capacidades y reducir sus debilidades! ¡Pero no soñemos despiertos, porque el presupuesto escasamente alcanza para dar clases!, y para tener tutores, ¿cuántos profesores más no se necesitarían?
+
+Pero… ¿quién ha dicho que para dar un consejo oportuno hace falta ser profesor? ¿O que para ser padrino hay que ser rico?
+
+¿No es ésta una tarea que bien la pueden cumplir también estudiantes de años superiores? ¿Y no sería ésta una labor loable, y practicable, también para muchos egresados que saben que la Universidad tiene muchos problemas, pero no encuentran la vía práctica de prestar su concurso y su ayuda?
+
+Mucho ha hecho la misma Universidad dentro de los límites de sus recursos y está consciente del problema. Pero somos muchos los que deberíamos ayudar, con un programa formal o con iniciativas particulares en determinadas Escuelas o Facultades o en todas, a prestar esa asistencia vital. ¿No donamos sangre? ¿No damos dinero para tantas cosas buenas? Pues nos hace falta dar de lo más precioso; algo de nuestro tiempo. Y difícilmente se podría invertir mejor. Estudiantes avanzados, egresados, profesores; todos deberían ser padrinos de primera hora, para ayudar en los problemas cuando son más agudos, y no, como sucede hoy día, decir cosas bonitas cuando ya el tiempo ha resuelto los problemas sin mayor misericordia humana y bastante ciegamente. Hoy día los que necesitan de padrino en la Universidad (en este sentido positivo que hemos planteado), no lo tienen. Y sí lo tienen los que menos lo necesitan. ¿Por qué no ayudar a enderezar este entuerto?
+
+*Wolf Petzall*
