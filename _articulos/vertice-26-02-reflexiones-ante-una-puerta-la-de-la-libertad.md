@@ -1,0 +1,30 @@
+---
+title: "Reflexiones ante una puerta: la de la libertad"
+publicacion: Vértice
+numero: 26
+numero_url: /vertice/26/
+numero_texto: "N.º 26 · Abril de 1965"
+pagina: 3
+orden: 2
+seccion: "Tribuna universitaria"
+autores: ["Federico González Carrizález"]
+permalink: /vertice/26/reflexiones-ante-una-puerta-la-de-la-libertad/
+---
+
+Esta es una de esas puertas sagradas, de difícil acceso. Respetada por todos, se presta, sin embargo, para una gran cantidad de imitaciones, con lo que se cumple aquel principio de que sólo se imita lo que vale la pena. Tenemos que ir con cuidado, pues, para no equivocarnos de puerta y acertar con la verdadera, en medio del tropel de gente que pugna por conseguirlo.
+
+En la Central, por lo pronto, se encuentra en boca de todos: se pide libertad de presos políticos, de prensa, se pide autonomía total. Pero asomémonos a esa prestigiosa puerta a ver qué encontramos y si es la correcta.
+
+Oímos, por ejemplo, que se habla de “libertad de manifestar” pero, como todos vimos, al empezar el mes el grupo de AD decidió hacer una manifestación que realizó recorriendo los pasillos al grito de “AD-Juventud”, llevando consigo antorchas para lograr mayor vistosidad; al salir de la facultad de Derecho los grupos del MIR y del PCV se dieron a la tarea de impedir dicha manifestación, y reuniendo todas sus fuerzas, comenzaron por entonar sus furiosos gritos de “SAPOS-SAPOS-SAPOS” o “MIR-PCV-MIR-PCV”, llegando a atacar a la otra manifestación. ¿LIBERTAD DE MANIFESTAR? Libertad de hacer sólo ellos y únicamente ellos lo que les venga en gana, llegando, incluso, a no permitir mítines, manifestaciones o propaganda que no sea la suya.
+
+Así nos encontramos con la palabra libertad sonando en nuestros oídos pero sólo como una consigna más: y para hacerla realidad hace falta trabajar cara a los estudiantes, pero, sobre todo, trabajar, hacer algo.
+
+El estudiantado está ya cansado de oír decretos, consignas y verbos en futuro: paro por el logro de una verdadera autonomía —entendiendo por esto la no intervención de la policía en la universidad, para poder hacer y deshacer cuanto les venga en gana— olvidándose de que en verdad no hace falta una verdadera autonomía e independencia para no seguir dependiendo de un presupuesto dado, siempre corto y fallo. Autonomía plena es la no intervención del Estado en la administración financiera, académica y científica de la universidad, cosa que no poseemos ya que el gobierno puede pedir cuenta de cómo se gasta el presupuesto, impidiendo que los sueldos de los profesores pasen del campo del empleado público o que los proyectos de investigación sean siempre cortos.
+
+Hace falta una verdadera autonomía, una libertad plena, en todas las facetas; no para usar a ésta como una plataforma o resorte de la política partidista, para poder injuriar, difamar a quien se quiera sin peligro (aunque esto ya se hace), sino para lograr un mejor funcionamiento. Libertad que es preciso conquistar y mantener; que implica unas obligaciones y responsabilidades nuevas, por los privilegios que se obtienen, y un gran respeto a la sociedad a la cual debemos servir por recibir de ella los recursos humanos y financieros y neutralidad política, es decir, abandonar el papel político, eliminar la saturación política que hace que nadie crea, ni confíe en la universidad, cuando le hacen falta respeto y prestigio.
+
+Pero la verdadera autonomía, independencia y libertad que debe existir en la universidad se conseguirá después de una labor de muchos años de trabajo duro por los intereses netamente universitarios.
+
+Y ahora, nos alejamos de la puerta de la libertad esperando que no se olvide cuál es la verdadera entre tantas imitaciones, para que todos podamos cruzarla… tranquilos.
+
+*Federico González Carrizález*
