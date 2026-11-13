@@ -7,7 +7,7 @@ numero_texto: "N.º 32 · Marzo de 1966"
 pagina: 26
 orden: 12
 seccion: "Arte"
-autores: ["Armando Pérez Gornés y Pedro José Martínez"]
+autores: ["Armando Pérez Gornés", "Pedro José Martínez"]
 permalink: /vertice/32/ocho-peces-dentro-del-pez/
 ---
 
