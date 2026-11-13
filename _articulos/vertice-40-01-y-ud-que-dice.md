@@ -3,7 +3,7 @@ title: "Y Ud… ¿Qué dice?"
 publicacion: Vértice
 numero: 40
 numero_url: /vertice/40/
-numero_texto: "N.º 40 · Febrero de 1967"
+numero_texto: "N.º 40 · Febrero-marzo de 1967"
 pagina: 2
 orden: 1
 seccion: "Cartas de los lectores"
