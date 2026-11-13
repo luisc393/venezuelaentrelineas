@@ -5,7 +5,7 @@ numero: 42
 numero_url: /vertice/42/
 numero_texto: "N.º 42 · Junio de 1967"
 pagina: 31
-orden: 13
+orden: 14
 seccion: "Publicidad"
 autores: []
 permalink: /vertice/42/pagina-31-anunciantes/
