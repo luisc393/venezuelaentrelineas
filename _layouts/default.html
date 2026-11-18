@@ -19,6 +19,9 @@
     <div class="wrap topbar-inner">
       <span class="topbar-date" id="hoy">Caracas, Venezuela</span>
       <span class="topbar-links">
+        {%- if site.suscripcion.action and site.suscripcion.action != "" %}
+        <a href="#suscribete">Suscríbete</a>
+        {%- endif %}
         <a href="https://x.com/VzlaEntrelineas" rel="noopener">@VzlaEntrelineas</a>
         {% if page.lang == 'en' %}<a href="{{ '/' | relative_url }}" hreflang="es" lang="es">Español</a>{% else %}<a href="{{ '/en/' | relative_url }}" hreflang="en" lang="en">English</a>{% endif %}
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
@@ -53,6 +56,8 @@
   <main>
     {{ content }}
   </main>
+
+  {% include suscripcion.html %}
 
   <footer class="site-footer">
     <div class="wrap footer-grid">

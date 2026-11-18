@@ -41,6 +41,15 @@ defaults:
     values:
       layout: articulo
 
+# Boletín por correo. La caja "Suscríbete" aparece en todas las páginas
+# en cuanto `action` tenga la URL del formulario del servicio de correo.
+suscripcion:
+  action: ""
+  campo_email: email
+  # campo_nombre: name
+  # campos_ocultos:
+  #   nombre_del_campo: valor
+
 exclude:
   - README.md
   - CLAUDE.md
