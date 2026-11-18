@@ -1,0 +1,24 @@
+---
+title: "El costoso fracaso de las revoluciones"
+publicacion: Leer Entrelíneas
+numero: 59
+numero_url: /leer-entrelineas/059/
+numero_texto: "N.º 59 · 2001"
+pagina: 6
+orden: 5
+seccion: "Historia"
+autores: ["Tomás Pérez Figueroa"]
+permalink: /leer-entrelineas/059/el-costoso-fracaso-de-las-revoluciones/
+---
+
+**Es conocida la famosa sentencia que, en forma impetratoria, dice en esencia, lo siguiente: Dame fortaleza para cambiar lo que haya que cambiar. Dame paciencia para aceptar lo que no se puede cambiar. Y dame sabiduría para discernir la diferencia. Su acierto estriba ante todo en el reconocimiento de la realidad de las cosas. Frases como éstas recogen experiencias de años, y a veces, de siglos, de modo que el hombre tiene que asimilarlas en sus propias vivencias, con sus éxitos y fracasos, sus rosas y sus espinas.**
+
+Con frecuencia la impaciencia lleva a algunos hombres a querer cambiarlo todo por la vía violenta, forzando incluso la misma realidad y luego, con mucha frecuencia, experimentan la amargura del fracaso. Así aprende el hombre a que los cambios deben ser a mejores situaciones, para lo cual la prudencia enseña a asumir los valores positivos de lo anterior, desechando los errores.
+
+En estos procesos de cambios es emblemática la llamada revolución. El revolucionario propio es el que se propone de forma inexorable el cambio de las instituciones por método violento según un esquema preconcebido e idealista y una dinámica determinista. Esto conlleva a la imposición de la pretendida solución revolucionaria a la misma realidad. No podemos olvidar que las dos grandes revoluciones paradigmáticas de los últimos siglos y emparentadas entre sí, fueron la revolución francesa y la revolución marxista. Y que Lutero, Descartes, Kant, Hegel, Feuerbach y Marx estaban en el trasfondo teológico y filosófico de su praxis revolucionaria. En la primera sólo faltaron los últimos.
+
+La violencia es parte esencial de una Revolución genuina; si se hacen los cambios sin ella entonces se habla de una revolución figurada, según se señala en el Diccionario de la Real Academia. La revolución como cualquier proceso que implica belicidad, comporta una estrategia y unas tácticas. La estrategia apunta a la consecución del fin y las tácticas son las distintas acciones que se desarrollan para la obtención de un objetivo. Normalmente cuando la revolución es figurada, o sea, sin violencia, las tácticas también lo son, es decir, son tácticas de doble cara, ocultadoras de otras acciones (piénsese en el “gobierno en la sombra” que tenía Castro desde que comenzó la revolución marxista en Cuba). El análisis concreto de las revoluciones nos sirve para conocerlas mejor en su naturaleza y en sus consecuencias. La revolución marxista cubana fue violenta, pero empleó también tácticas de doble cara.
+
+El análisis fenomenológico de las revoluciones más significativas en los últimos tiempos señala que los resultados nunca fueron tan grandes como las expectativas y en muchos casos, más bien fueron peores. Piénsese en la revolución Rusa, en la cubana y en la sandinista. Ellas han dejado una estela de empobrecimiento material, intelectual y espiritual, y han sembrado la destrucción y la anarquía y siempre al precio de un número inimaginable de pérdida de vidas humanas y un indecible sufrimiento. Y éstos sin la compensación de resolver los problemas fundamentales del hombre y de la sociedad. Problemas que no pueden resolver, porque no son procesos realistas, porque destruyen junto a lo negativo de los sistemas anteriores, también lo positivo; porque prometen paraísos utópicos inalcanzables que son verdaderos opios del pueblo y, finalmente, porque no dan las explicaciones últimas al hombre.
+
+Las revoluciones no solucionan los problemas porque miran al hombre y los problemas sociales desde una óptica idealista o materialista, sin percatarse de que el hombre es alma y cuerpo, con inteligencia y manos. La sociedad no es un ente abstracto, está constituida por seres humanos con un último fin, un sentido religioso, una historia y una estructura biológica. Si no hay cambio en el hombre no lo habrá en la sociedad, aún cuando mejoren las estructuras. No son la sociedad y sus estructuras las que mejoran esencialmente al hombre sino que es la persona humana la que conforma la sociedad humana y la puede mejorar. Las mejoras estructurales ayudan positivamente, pero las mejoras de la persona ayudan substancialmente. Esa transformación del hombre debe comenzar por su aspecto espiritual que es lo más rico en su ser, y sólo la religión, y en especial la de Cristo, a través de su doctrina, su moral y sus sacramentos confiados y depositados en la Santa Iglesia, pueden propiciar de una manera más profunda esa transformación que necesariamente redundará en toda la persona y a través de ésta en toda la sociedad.
