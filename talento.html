@@ -1,0 +1,46 @@
+---
+layout: default
+title: Talento Entrelíneas
+permalink: /talento/
+description: Un homenaje al talento venezolano. Cada artista, científico, deportista o creador tiene su página con semblanza, trayectoria y portafolio.
+---
+{%- assign perfiles = site.talento | sort: "orden" -%}
+{%- assign disciplinas = perfiles | group_by: "disciplina" -%}
+<section class="talento-hero">
+  <div class="wrap">
+    <p class="kicker kicker-light">Nueva sección</p>
+    <h1>Talento<br>Entrelíneas</h1>
+    <p class="pub-sub">Un homenaje al talento venezolano</p>
+    <p class="pub-intro">Venezuela está llena de gente que hace las cosas muy bien: cantantes, músicos, artistas, científicos, deportistas, maestros. Aquí les damos a cada uno su propia página, para que el país conozca su historia, su trayectoria y su obra.</p>
+  </div>
+</section>
+
+<div class="wrap">
+  {% for d in disciplinas %}
+  <div class="rule-head"><h2>{{ d.name }}</h2><span>{{ d.size }} {% if d.size == 1 %}perfil{% else %}perfiles{% endif %}</span></div>
+  <div class="talentos">
+    {% for p in d.items %}
+    <a class="talento-card" href="{{ p.url | relative_url }}">
+      <span class="talento-card-foto">{% if p.foto %}<img src="{{ p.foto | relative_url }}" alt="">{% else %}<span>{{ p.iniciales }}</span>{% endif %}</span>
+      <span class="talento-card-txt">
+        <span class="kicker">{{ p.oficio }} · {{ p.ciudad }}</span>
+        <span class="talento-card-nombre">{{ p.title }}</span>
+        <span class="talento-card-res">{{ p.resumen }}</span>
+        {% if p.preliminar %}<span class="etiqueta">Versión preliminar</span>{% endif %}
+      </span>
+    </a>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  <div class="rule-head"><h2>Muy pronto</h2></div>
+  <p class="talento-pronto">Artes plásticas, ciencia, deporte, literatura, cocina, emprendimiento… La galería crecerá con los talentos que tú nos ayudes a descubrir.</p>
+
+  <div class="cta-box talento-cta">
+    <div>
+      <h2>Postula un talento</h2>
+      <p>¿Conoces a alguien cuyo trabajo merece ser visto? Cuéntanos quién es y qué hace. Siempre publicamos con su permiso.</p>
+    </div>
+    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-un-talento">Cómo postular</a>
+  </div>
+</div>

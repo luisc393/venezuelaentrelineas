@@ -1,0 +1,103 @@
+---
+layout: default
+---
+{%- assign f = page.fuentes -%}
+<section class="talento-hero">
+  <div class="wrap talento-hero-grid">
+    <div>
+      <p class="crumbs crumbs-light"><a href="{{ '/talento/' | relative_url }}">Talento Entrelíneas</a> <span>›</span> {{ page.disciplina }}</p>
+      <p class="kicker kicker-light">{{ page.oficio }} · {{ page.ciudad }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="pub-intro">{{ page.resumen }}</p>
+      {% if page.datos %}<ul class="pub-datos">{% for d in page.datos %}<li><strong>{{ d.valor }}</strong><span>{{ d.texto }}</span></li>{% endfor %}</ul>{% endif %}
+    </div>
+    <div class="talento-retrato" aria-hidden="true">
+      {% if page.foto %}<img src="{{ page.foto | relative_url }}" alt="">{% else %}<span>{{ page.iniciales }}</span>{% endif %}
+    </div>
+  </div>
+</section>
+
+<div class="wrap talento-page">
+  {% if page.preliminar %}
+  <p class="aviso-preliminar"><strong>Versión preliminar.</strong> Este perfil se armó con información pública de prensa y redes. Lo completaremos con el material que nos comparta {{ page.title | split: " " | first }}: fotos, currículo, grabaciones y repertorio.</p>
+  {% endif %}
+
+  <nav class="talento-indice" aria-label="En esta página">
+    <a href="#semblanza">Semblanza</a>
+    <a href="#trayectoria">Trayectoria</a>
+    <a href="#repertorio">Repertorio</a>
+    {% if page.videos or page.enlaces_video %}<a href="#portafolio">Escúchala</a>{% endif %}
+    <a href="#prensa">Prensa</a>
+  </nav>
+
+  <section id="semblanza" class="talento-sec">
+    <div class="rule-head"><h2>Semblanza</h2></div>
+    <div class="talento-semblanza">
+      <div class="prose prose-drop">{{ content }}</div>
+      {% if page.cita %}<blockquote class="pull">«{{ page.cita }}»<cite>{{ page.title }} · {{ page.cita_fuente }}</cite></blockquote>{% endif %}
+    </div>
+  </section>
+
+  <section id="trayectoria" class="talento-sec">
+    <div class="rule-head"><h2>Trayectoria</h2><span>Hitos documentados en prensa</span></div>
+    <ol class="linea">
+      {% for t in page.trayectoria %}{% assign src = f[t.fuente] %}
+      <li>
+        <span class="linea-fecha">{{ t.fecha }}</span>
+        <h3>{{ t.titulo }}</h3>
+        <p>{{ t.detalle }}{% if src %} <a class="linea-fuente" href="{{ src.url }}" rel="noopener" target="_blank">{{ src.medio }}</a>{% endif %}</p>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section id="repertorio" class="talento-sec">
+    <div class="rule-head"><h2>Repertorio</h2><span>Ópera, zarzuela y concierto</span></div>
+    <h3 class="talento-sub">Roles</h3>
+    <ul class="roles">
+      {% for r in page.roles %}<li><strong>{{ r.rol }}</strong><span><em>{{ r.obra }}</em> · {{ r.autor }}</span></li>{% endfor %}
+    </ul>
+    {% if page.concierto %}
+    <h3 class="talento-sub">En concierto y recital</h3>
+    <ul class="talento-lista">{% for c in page.concierto %}<li>{{ c }}</li>{% endfor %}</ul>
+    {% endif %}
+    <div class="talento-cols">
+      {% if page.orquestas %}<div><h3 class="talento-sub">Orquestas y compañías</h3><ul class="talento-lista">{% for o in page.orquestas %}<li>{{ o }}</li>{% endfor %}</ul></div>{% endif %}
+      {% if page.directores %}<div><h3 class="talento-sub">Ha cantado bajo la dirección de</h3><p class="talento-nombres">{{ page.directores | join: " · " }}</p></div>{% endif %}
+    </div>
+  </section>
+
+  {% if page.videos or page.enlaces_video %}
+  <section id="portafolio" class="talento-sec">
+    <div class="rule-head"><h2>Escúchala</h2><span>Videos públicos</span></div>
+    <div class="videos">
+      {% for v in page.videos %}
+      <figure class="video">
+        <div class="video-marco"><iframe src="https://www.youtube-nocookie.com/embed/{{ v.youtube }}" title="{{ v.titulo | escape }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <figcaption>{{ v.titulo }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% if page.enlaces_video %}<ul class="talento-lista">{% for e in page.enlaces_video %}<li><a href="{{ e.url }}" rel="noopener" target="_blank">{{ e.titulo }}</a></li>{% endfor %}</ul>{% endif %}
+  </section>
+  {% endif %}
+
+  <section id="prensa" class="talento-sec">
+    <div class="rule-head"><h2>Prensa y fuentes</h2></div>
+    <ul class="prensa">
+      {% for par in f %}{% assign s = par[1] %}
+      <li><a href="{{ s.url }}" rel="noopener" target="_blank"><span class="kicker">{{ s.medio }} · {{ s.fecha }}</span>{{ s.titulo }}</a></li>
+      {% endfor %}
+    </ul>
+    {% if page.redes %}<p class="talento-redes">Síguela en {% for r in page.redes %}<a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.titulo }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
+  </section>
+
+  <div class="cta-box talento-cta">
+    <div>
+      <h2>¿Conoces otro talento venezolano?</h2>
+      <p>Cuéntanos su historia y lo sumamos a la galería de Talento Entrelíneas.</p>
+    </div>
+    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-un-talento">Postula un talento</a>
+  </div>
+  <p class="back"><a href="{{ '/talento/' | relative_url }}">← Volver a Talento Entrelíneas</a></p>
+</div>

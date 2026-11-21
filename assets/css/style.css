@@ -276,3 +276,65 @@ a.sum-tit:hover { color: var(--accent); }
 .autor li a:hover { color: var(--accent); }
 .autor li span { display: block; font-family: var(--sans); font-size: 13px; color: var(--muted); }
 .autor:target { background: var(--paper-2); }
+
+/* Talento Entrelíneas */
+.talento-hero { color: #fff; padding: 40px 0 48px; background: radial-gradient(1100px 500px at 85% 15%, rgba(0,145,217,.35) 0%, transparent 60%), linear-gradient(135deg, #2f3d93 0%, #1b245c 75%); }
+.talento-hero h1 { font-size: clamp(44px, 8vw, 88px); font-weight: 900; letter-spacing: -.02em; line-height: .95; margin-bottom: 18px; }
+.talento-hero-grid { display: grid; gap: 32px; align-items: center; }
+@media (min-width: 860px) { .talento-hero-grid { grid-template-columns: 1.6fr 1fr; gap: 56px; } }
+.crumbs-light, .crumbs-light a { color: #bccaf3; }
+.crumbs-light a:hover { color: #fff; }
+.talento-retrato { justify-self: center; width: min(300px, 70vw); aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.25); box-shadow: 0 30px 60px rgba(0,0,0,.35); overflow: hidden; }
+.talento-retrato img { width: 100%; height: 100%; object-fit: cover; }
+.talento-retrato span { font-family: var(--display); font-weight: 900; font-size: 110px; letter-spacing: -.04em; color: #fff; opacity: .9; }
+.talento-page { max-width: 980px; }
+.aviso-preliminar { font-family: var(--sans); font-size: 14px; line-height: 1.55; background: #fff8dc; border-left: 5px solid var(--gold); padding: 14px 18px; margin: 28px 0 0; }
+.talento-indice { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0 0; }
+.talento-indice a { font-family: var(--sans); font-size: 13px; font-weight: 600; text-decoration: none; color: var(--accent); border: 1px solid var(--rule); padding: 7px 14px; }
+.talento-indice a:hover { background: var(--accent); border-color: var(--accent); color: #fff; }
+.talento-sec { scroll-margin-top: 60px; }
+.talento-semblanza { display: grid; gap: 28px; }
+@media (min-width: 860px) { .talento-semblanza { grid-template-columns: 1fr 260px; gap: 48px; align-items: start; } .talento-semblanza .pull { position: sticky; top: 72px; } }
+.talento-sub { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: var(--accent); margin: 28px 0 12px; }
+.linea { list-style: none; margin: 0; padding: 0 0 0 22px; border-left: 3px solid var(--accent); }
+.linea li { position: relative; padding: 0 0 26px 8px; }
+.linea li::before { content: ""; position: absolute; left: -32px; top: 6px; width: 15px; height: 15px; border-radius: 50%; background: #fff; border: 3px solid var(--accent); }
+.linea-fecha { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--link); }
+.linea h3 { font-size: 22px; font-weight: 800; margin: 4px 0 6px; }
+.linea p { margin: 0; color: var(--ink-2); font-size: 17px; }
+.linea-fuente { font-family: var(--sans); font-size: 12px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.linea-fuente::before { content: "Fuente: "; font-weight: 400; }
+.roles { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.roles li { background: var(--paper-2); border-top: 3px solid var(--accent); padding: 12px 14px; display: flex; flex-direction: column; }
+.roles strong { font-family: var(--display); font-size: 20px; line-height: 1.2; }
+.roles span { font-family: var(--sans); font-size: 13px; color: var(--muted); }
+.talento-lista { margin: 0; padding-left: 20px; }
+.talento-lista li { margin-bottom: 6px; }
+.talento-lista a, .talento-redes a { color: var(--accent); }
+.talento-cols { display: grid; gap: 0 48px; }
+@media (min-width: 760px) { .talento-cols { grid-template-columns: 1fr 1fr; } }
+.talento-nombres { margin: 0; line-height: 1.8; }
+.videos { display: grid; gap: 24px; margin-bottom: 20px; }
+@media (min-width: 860px) { .videos { grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); } }
+.video { margin: 0; }
+.video-marco { position: relative; aspect-ratio: 16 / 9; background: var(--night); }
+.video-marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video figcaption { font-family: var(--sans); font-size: 13px; color: var(--muted); margin-top: 8px; }
+.prensa { list-style: none; margin: 0; padding: 0; }
+.prensa li { border-bottom: 1px solid var(--rule); }
+.prensa a { display: block; padding: 12px 0; text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 19px; line-height: 1.25; }
+.prensa a:hover { color: var(--accent); }
+.prensa .kicker { margin-bottom: 4px; font-size: 11px; }
+.talento-redes { font-family: var(--sans); font-size: 15px; margin-top: 20px; }
+.talento-cta { margin-top: 48px; }
+.talentos { display: grid; gap: 24px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.talento-card { display: grid; grid-template-columns: 110px 1fr; gap: 18px; text-decoration: none; border-top: 3px solid var(--accent); padding-top: 16px; }
+.talento-card-foto { aspect-ratio: 4 / 5; background: linear-gradient(135deg, #2f3d93 0%, #1b245c 80%); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.talento-card-foto img { width: 100%; height: 100%; object-fit: cover; }
+.talento-card-foto span { font-family: var(--display); font-weight: 900; font-size: 40px; color: #fff; }
+.talento-card-txt { display: flex; flex-direction: column; }
+.talento-card-nombre { font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1.1; margin-bottom: 6px; }
+.talento-card:hover .talento-card-nombre { color: var(--accent); }
+.talento-card-res { font-size: 16px; color: var(--ink-2); line-height: 1.5; }
+.etiqueta { align-self: flex-start; margin-top: 10px; font-family: var(--sans); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; background: #fff8dc; border: 1px solid var(--gold); padding: 3px 8px; }
+.talento-pronto { max-width: 700px; color: var(--ink-2); }

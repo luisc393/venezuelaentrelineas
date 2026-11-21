@@ -21,6 +21,9 @@ collections:
     permalink: /vertice/:name/
   articulos:
     output: true
+  talento:
+    output: true
+    permalink: /talento/:name/
 
 defaults:
   - scope:
@@ -40,6 +43,10 @@ defaults:
       type: articulos
     values:
       layout: articulo
+  - scope:
+      type: talento
+    values:
+      layout: talento
 
 exclude:
   - README.md
