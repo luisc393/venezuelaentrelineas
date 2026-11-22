@@ -45,7 +45,7 @@ Creemos que si cada venezolano aporta su grano de arena, aunque sea muy chiquito
 
 **Con donaciones, más adelante.** Queremos que en el futuro quien lo desee pueda apoyar a la fundación con un aporte. Todavía no recibimos donaciones: cuando estén habilitadas lo anunciaremos aquí, con toda la información y la transparencia que se merecen.
 
-Mientras tanto, la mejor forma de empezar es escribirnos por [@VzlaEntrelineas](https://x.com/VzlaEntrelineas) o desde la página [Participa](/participa/).
+Mientras tanto, la mejor forma de empezar es la página [Participa](/participa/).
 
 <div class="cta-box">
   <p><strong>¿Quieres sumarte?</strong> Cuéntanos qué te gustaría hacer.</p>
