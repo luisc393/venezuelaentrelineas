@@ -6,6 +6,8 @@ kicker: Súmate
 intro: Venezuela Entrelíneas se construye entre muchos. Así puedes sumarte.
 ---
 
+Escríbenos a **[contacto@venezuelaentrelineas.com](mailto:contacto@venezuelaentrelineas.com)**. Leemos todos los mensajes.
+
 ## Cuéntanos una buena noticia
 
 ¿Conoces a alguien, una escuela, una comunidad o una organización que esté haciendo algo bueno por Venezuela? Escríbenos con la historia, quién la protagoniza y cómo contactarlos.

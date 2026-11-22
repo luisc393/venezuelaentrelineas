@@ -44,4 +44,4 @@ So far the archive holds **{{ site.articulos | size }} articles**. For researche
 
 ## Get involved
 
-Do you know someone doing something good for Venezuela? Do you keep printed copies of *Leer Entrelíneas* or *Vértice*, or remember how one reached your hands? We would love to hear from you, in English or Spanish. See how to [take part](/participa/) or write to us on X at [@VzlaEntrelineas](https://x.com/VzlaEntrelineas).
+Do you know someone doing something good for Venezuela? Do you keep printed copies of *Leer Entrelíneas* or *Vértice*, or remember how one reached your hands? We would love to hear from you, in English or Spanish. See how to [take part](/participa/) or write to us at [contacto@venezuelaentrelineas.com](mailto:contacto@venezuelaentrelineas.com).
