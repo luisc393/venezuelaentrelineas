@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Redirigiendo…</title>
+  <link rel="canonical" href="{{ page.destino | absolute_url }}">
+  <meta http-equiv="refresh" content="0; url={{ page.destino | relative_url }}">
+  <meta name="robots" content="noindex">
+  <script>location.replace("{{ page.destino | relative_url }}" + location.hash);</script>
+</head>
+<body>
+  <p>Esta página se mudó a <a href="{{ page.destino | relative_url }}">{{ page.destino | absolute_url }}</a>.</p>
+</body>
+</html>

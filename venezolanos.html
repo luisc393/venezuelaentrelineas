@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Talento Entrelíneas
-permalink: /talento/
+title: Venezolanos Entrelíneas
+permalink: /venezolanos/
 description: Un homenaje al talento venezolano. Cada artista, científico, deportista o creador tiene su página con semblanza, trayectoria y portafolio.
 ---
-{%- assign perfiles = site.talento | sort: "orden" -%}
+{%- assign perfiles = site.venezolanos | sort: "orden" -%}
 {%- assign disciplinas = perfiles | group_by: "disciplina" -%}
 <section class="talento-hero">
   <div class="wrap">
     <p class="kicker kicker-light">Nueva sección</p>
-    <h1>Talento<br>Entrelíneas</h1>
+    <h1>Venezolanos<br>Entrelíneas</h1>
     <p class="pub-sub">Un homenaje al talento venezolano</p>
     <p class="pub-intro">Venezuela está llena de gente que hace las cosas muy bien: cantantes, músicos, artistas, científicos, deportistas, maestros. Aquí les damos a cada uno su propia página, para que el país conozca su historia, su trayectoria y su obra.</p>
   </div>
@@ -38,9 +38,9 @@ description: Un homenaje al talento venezolano. Cada artista, científico, depor
 
   <div class="cta-box talento-cta">
     <div>
-      <h2>Postula un talento</h2>
+      <h2>Postula a alguien</h2>
       <p>¿Conoces a alguien cuyo trabajo merece ser visto? Cuéntanos quién es y qué hace. Siempre publicamos con su permiso.</p>
     </div>
-    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-un-talento">Cómo postular</a>
+    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-a-alguien">Cómo postular</a>
   </div>
 </div>
