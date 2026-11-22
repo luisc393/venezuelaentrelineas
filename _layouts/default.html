@@ -46,6 +46,7 @@
       <a href="{{ '/vertice/' | relative_url }}" {% if url contains '/vertice/' %}class="activo"{% endif %}>Vértice</a>
       <a href="{{ '/venezolanos/' | relative_url }}" {% if url contains '/venezolanos/' %}class="activo"{% endif %}>Venezolanos</a>
       <a href="{{ '/nuestra-historia/' | relative_url }}" {% if url contains '/nuestra-historia/' %}class="activo"{% endif %}>Nuestra historia</a>
+      <a href="{{ '/la-fundacion/' | relative_url }}" {% if url contains '/la-fundacion/' %}class="activo"{% endif %}>La Fundación</a>
       <a href="{{ '/participa/' | relative_url }}" class="nav-cta{% if url contains '/participa/' %} activo{% endif %}">Participa</a>
       {% endif %}
     </div>
@@ -67,6 +68,7 @@
           <li><a href="{{ '/' | relative_url }}">Noticias</a></li>
           <li><a href="{{ '/venezolanos/' | relative_url }}">Venezolanos Entrelíneas</a></li>
           <li><a href="{{ '/nuestra-historia/' | relative_url }}">Nuestra historia</a></li>
+          <li><a href="{{ '/la-fundacion/' | relative_url }}">La Fundación</a></li>
           <li><a href="{{ '/participa/' | relative_url }}">Participa</a></li>
         </ul>
       </div>
@@ -81,6 +83,7 @@
     </div>
     <div class="wrap footer-base">
       <span>© {{ site.time | date: "%Y" }} Venezuela Entrelíneas</span>
+      <span class="footer-fundacion">{% if page.lang == 'en' %}A project of the{% else %}Un proyecto de la{% endif %} <a href="{{ '/la-fundacion/' | relative_url }}">Fundación Venezuela Entrelíneas</a></span>
       <span class="footer-credito">Sitio web realizado por <a href="https://casacapriles.com" target="_blank" rel="noopener">Casa Capriles</a></span>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </div>
