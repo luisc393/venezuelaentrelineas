@@ -21,9 +21,9 @@ collections:
     permalink: /vertice/:name/
   articulos:
     output: true
-  talento:
+  venezolanos:
     output: true
-    permalink: /talento/:name/
+    permalink: /venezolanos/:name/
 
 defaults:
   - scope:
@@ -44,9 +44,9 @@ defaults:
     values:
       layout: articulo
   - scope:
-      type: talento
+      type: venezolanos
     values:
-      layout: talento
+      layout: venezolano
 
 exclude:
   - README.md
