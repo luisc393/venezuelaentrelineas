@@ -156,6 +156,8 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .prose h3 { font-size: 22px; margin: 28px 0 8px; }
 .prose p, .prose ul, .prose ol { margin: 0 0 18px; }
 .prose a { color: var(--accent); }
+.prose a.btn { color: #fff; text-decoration: none; }
+.prose .cta-box p { margin: 0; }
 .prose blockquote { margin: 28px 0; padding: 4px 0 4px 22px; border-left: 4px solid var(--gold); font-style: italic; font-size: 1.1rem; color: var(--ink-2); }
 .prose-drop > p:first-of-type::first-letter, .prose-dc > p.dc::first-letter { font-family: var(--display); float: left; font-size: 4.4em; line-height: .85; font-weight: 900; padding: 6px 10px 0 0; color: var(--accent); }
 .prose .fuente { font-family: var(--sans); font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 14px; margin-top: 36px; }
@@ -238,7 +240,7 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .site-footer a { color: #dbe3ff; text-decoration: none; }
 .site-footer a:hover { color: #fff; }
 .footer-base { display: flex; justify-content: space-between; border-top: 1px solid rgba(255,255,255,.2); margin-top: 32px; padding-top: 16px; font-family: var(--sans); font-size: 12px; flex-wrap: wrap; gap: 8px 24px; }
-.footer-credito a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+.footer-credito a, .footer-fundacion a { color: inherit; font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
 
 /* Ajustes */
 @media (max-width: 719px) {
