@@ -22,9 +22,13 @@ trayectoria:
     detalle: Empezó a cantar de niña y dio su primer concierto con apenas cuatro o cinco años.
     fuente: wynwood
   - fecha: Formación
+    titulo: Conservatorio de Música Juan José Landaeta
+    detalle: Empezó sus estudios de canto con la maestra Gisella Höllander. Durante cinco años estudió a la vez la licenciatura en Administración y la música, que en total le tomó nueve años.
+    fuente: artista
+  - fecha: Formación
     titulo: Conservatorio de Música Simón Bolívar
-    detalle: Se formó en la cátedra de la maestra Sara Catarine, con quien estudió once años. También trabajó con Gisela Höllander, Isabel Palacios, Margot Parés-Reyna y Francisco Salazar.
-    fuente: vs2024
+    detalle: Tras cambiar de maestra de canto, pasó al Conservatorio Simón Bolívar, donde se graduó en la cátedra de Sara Catarine. También trabajó con Isabel Palacios, Margot Parés-Reyna y Francisco Salazar.
+    fuente: artista
   - fecha: Formación
     titulo: Summer Voice Festival de la Manhattan School of Music
     detalle: Participó en este festival de verano para cantantes en Nueva York.
@@ -33,6 +37,14 @@ trayectoria:
     titulo: Concurso Nacional de Canto Lírico «Celicia Núñez»
     detalle: Su trayectoria incluye el primer Concurso Nacional de Canto Lírico «Celicia Núñez».
     fuente: vs2015
+  - fecha: 2008
+    titulo: Su debut con orquesta
+    detalle: Cantó por primera vez con orquesta en la gala «Amadeus» del Ballet Contemporáneo de Caracas, en el Aula Magna, con la Orquesta Sinfónica Municipal de Caracas bajo la batuta de Rodolfo Saglimbeni. Interpretó un aria de la Reina de la Noche y el dúo de Papageno y Papagena de «La flauta mágica».
+    fuente: artista
+  - fecha: En concierto
+    titulo: «Carmina Burana»
+    detalle: Ha cantado en varias ocasiones los solos de soprano de la cantata de Carl Orff, entre ellas en el Aula Magna, con arias como «In trutina».
+    fuente: wynwood
   - fecha: 5 de julio de 2015
     titulo: «El virtuosismo del Bel Canto»
     detalle: Recital en el Salón Siglo XXI de Caracas con Händel, Mozart, Delibes y Bernstein, junto a Génesis Liévano (oboe), Ysmael Rodríguez (contrabajo) y Teresa Cos (piano).
@@ -41,6 +53,14 @@ trayectoria:
     titulo: Lucía en «Lucia di Lammermoor»
     detalle: Protagonista de la ópera de Donizetti en el Teatro Municipal de Caracas, con dirección artística de Isabel Palacios y dirección musical de Elisa Vegas. Un sueño que se había propuesto en 2011.
     fuente: vs2018
+  - fecha: 2019
+    titulo: Gilda en «Rigoletto»
+    detalle: Cantó Gilda, la hija de Rigoletto, en la ópera de Verdi en el Teatro Municipal de Caracas.
+    fuente: artista
+  - fecha: Hacia 2022
+    titulo: Adina en «L'elisir d'amore»
+    detalle: Su primera ópera con la Compañía de Ópera del Teatro Teresa Carreño y también su primera ópera en la Sala Ríos Reyna.
+    fuente: artista
   - fecha: 28 de enero de 2023
     titulo: «Joyas del Barocco Italiano»
     detalle: Concierto en la Asociación Cultural Humboldt de Caracas con Talia Guerrero, con Corelli, Vivaldi y Scarlatti.
@@ -166,8 +186,10 @@ fuentes:
 
 Hay voces que parecen no tener techo. La de Ninoska Camacaro es de esas: una soprano coloratura, la cuerda que vive en las notas más altas y en los pasajes más rápidos de la ópera, la que tiene que cantar la Reina de la Noche de Mozart sin que se le note el vértigo.
 
-Empezó a cantar de niña, y con cuatro o cinco años ya estaba dando su primer concierto. Antes de la música estudió una licenciatura en Administración, pero el canto la fue llamando hasta llevarla al Conservatorio de Música Simón Bolívar. Llegó pensando en el piano o el violín, audicionó para canto lírico y ahí se quedó. Su maestra, Sara Catarine, la acompañó durante once años. Ella misma cuenta que le tomó casi siete cambiar de técnica, una paciencia que dice mucho de su disciplina.
+Empezó a cantar de niña, y con cuatro o cinco años ya estaba dando su primer concierto. Durante cinco años estudió al mismo tiempo la licenciatura en Administración y la música, una carrera que en total le tomó nueve años. Comenzó en el Conservatorio Juan José Landaeta con la maestra Gisella Höllander, y luego pasó al Conservatorio Simón Bolívar, donde se graduó en la cátedra de Sara Catarine. Ella misma cuenta que le tomó años cambiar de técnica, una paciencia que dice mucho de su disciplina.
 
-Esa constancia dio frutos en los escenarios grandes de Caracas. En 2018 fue la protagonista de *Lucia di Lammermoor* en el Teatro Municipal, un papel con el que soñaba desde 2011. En 2024 cantó Violetta en *La Traviata* en la Sala Ríos Reyna del Teatro Teresa Carreño, y la crítica de *Últimas Noticias* escribió que «se robó el show». Hoy es integrante activa de la Compañía de Ópera del Teatro Teresa Carreño y ha cantado con las principales orquestas del país, bajo la batuta de directores como Alfredo Rugeles, Rodolfo Saglimbeni y Elisa Vegas.
+En 2008 llegó su debut con orquesta: una gala dedicada a Mozart en el Aula Magna, con la Sinfónica Municipal de Caracas y el maestro Rodolfo Saglimbeni. Cantó un aria de la Reina de la Noche y el dúo de Papageno y Papagena. En el Aula Magna también ha cantado los solos de soprano de *Carmina Burana*, una obra a la que ha vuelto varias veces.
+
+Esa constancia dio frutos en los escenarios grandes de Caracas. En 2018 fue la protagonista de *Lucia di Lammermoor* en el Teatro Municipal, un papel con el que soñaba desde 2011, y al año siguiente volvió a ese teatro como Gilda en *Rigoletto*. Con la Compañía de Ópera del Teatro Teresa Carreño debutó como Adina en *L'elisir d'amore*, su primera ópera en la Sala Ríos Reyna. En 2024 cantó Violetta en *La Traviata* en la Sala Ríos Reyna del Teatro Teresa Carreño, y la crítica de *Últimas Noticias* escribió que «se robó el show». Hoy es integrante activa de la Compañía de Ópera del Teatro Teresa Carreño y ha cantado con las principales orquestas del país, bajo la batuta de directores como Alfredo Rugeles, Rodolfo Saglimbeni y Elisa Vegas.
 
 Entre función y función, Ninoska sigue apostando por los recitales de cámara, muchas veces con entrada libre, en salas como el CVA Las Mercedes o el Salón Siglo XXI. Es su manera de acercar la música lírica a la gente, y de mostrar que en Venezuela se sigue cantando ópera, y muy bien.
