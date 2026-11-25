@@ -1,0 +1,23 @@
+---
+title: "La ciudad educativa"
+publicacion: Leer Entrelíneas
+numero: 25
+numero_url: /leer-entrelineas/025/
+numero_texto: "N.º 25 · Octubre de 1998"
+pagina: 1
+orden: 1
+autores: ["Alfredo Antonio Gorrochotegui"]
+permalink: /leer-entrelineas/025/la-ciudad-educativa/
+---
+
+Educar a nuestros siete millones de jóvenes es una ardua y sin precedente tarea comunitaria. Aquí el concepto de comunidad se aboca a considerar que la educación no es sólo tarea de los 370 mil profesores que existen en el país. Es tarea de todos y es un problema de todos. Un problema de la «ciudad total». Es un servicio que ofrecen el Estado y los entes privados, y que también es configurado por las familias, la autoridad política, los medios de comunicación de masas y las otras organizaciones que promueven la formación de sus integrantes.
+
+A simple vista, la anterior cuestión parece estar clara e incluso asumida. Pero tengo la sensación de que no existe una «convicción operativa» (de toda la comunidad nacional) de que eso sea así. En primer lugar, habría que recordar que la educación es un bien que se ofrece y se aporta como valor a otra persona. Por tanto, entra perfectamente dentro de lo que podemos llamar un «servicio». Sin embargo, aquí tengo que acotar que la educación ni es un servicio parecido al que se da en las agencias de viajes, ni es un servicio de mejora o mantenimiento de la salud. A la educación se le puede considerar más profundamente como un «servicio de mejoramiento espiritual». Es el espíritu de la juventud lo que mejoramos o estancamos (e incluso empeoramos) cuando intentamos educarles. Es en el espíritu de esos jóvenes, en sus sentimientos, en sus ideales, en sus actitudes y aptitudes, en sus conocimientos, donde fraguamos un cambio.
+
+«Educere», término latino de donde proviene «educación», quiere decir sacar de adentro hacia afuera. El joven venezolano necesita ser entendido desde «dentro». Dentro de él está el amor que en el futuro le tenga a la patria. Dentro de él está el valor que tengan para su personal desenvolvimiento los conocimientos, el estudio y la honesta superación personal. Dentro de él está lo que valore la democracia y la libertad; están sus actitudes hacia las relaciones humanas, su entendimiento sobre lo que es o debe ser el mismo ser humano. Dentro de él cuajamos la fortaleza, la paciencia, el orden, la sinceridad, la perseverancia, la creatividad y el verdadero amor al trabajo. Dentro de él podemos lograr que sea capaz de darse generosamente a los demás.
+
+El problema es delicado. Pero la honestidad y la claridad con que entendemos comunitariamente qué es educar pueden hacernos cambiar las convicciones y las actuaciones para afrontar más genuinamente la realidad. Y así, comunitariamente de acuerdo, podemos hacer cambiar esa reducida visión por la que se cree que educar es sólo impartir conocimientos y enseñanzas. A nuestros jóvenes no se les educa dándoles conocimientos repetitivos, estructurados y memorísticos. Tampoco se les educa dándoles sermones ni clases magistrales, aun cuando de vez en cuando se necesite una muy buena clase magistral. A nuestros jóvenes se les educa pensando en cada uno de ellos, con nombre y apellido y con unos padres o situación concreta. A nuestras juventudes se les educa pensando en lo que pasa en sus corazones, interesándose por lo que a ellos les interesa.
+
+La responsabilidad es inmensa. Los 370 mil maestros y profesores del sistema no lo pueden todo. Es cierto que tienen que profundizar en «cómo» hacerlo mejor. Pero también los padres y los políticos educan con su ejemplo, inciden en los valores que se van configurando en los jóvenes. Las empresas y sus culturas, con sus gerentes y el modo como se trata a los trabajadores, inciden en la experiencia educativa de la persona. Y algunos medios de comunicación, no hay duda, con su manejo de la opinión pública, con la distorsión de los hechos, con la presentación de «falsos ídolos», con la introducción de «valores» que nada tienen que ver con nuestra cultura, lamentablemente perturban e incluso retardan la verdadera y necesaria educación de lo que hay que conformar desde el interior de los jóvenes.
+
+Todos educamos. Todos somos responsables de la calidad total de ese servicio de mejoramiento espiritual. Si queremos un mejor país, si queremos que el «espíritu» de Venezuela sea mejor y más maduro, si deseamos saber afrontar los problemas que tenemos en el presente y por delante, tenemos que reflexionar sobre la educación como responsabilidad comunitaria. Y los primeros que tenemos que cambiar el modo de entender y ofrecer educación somos cada uno de nosotros, en el ámbito donde nos movemos y vivimos. Difícil tarea, pero necesaria.
