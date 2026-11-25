@@ -340,3 +340,4 @@ a.sum-tit:hover { color: var(--accent); }
 .talento-card-res { font-size: 16px; color: var(--ink-2); line-height: 1.5; }
 .etiqueta { align-self: flex-start; margin-top: 10px; font-family: var(--sans); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; background: #fff8dc; border: 1px solid var(--gold); padding: 3px 8px; }
 .talento-pronto { max-width: 700px; color: var(--ink-2); }
+.linea-fuente-artista::before { content: ""; }

@@ -45,7 +45,7 @@ layout: default
       <li>
         <span class="linea-fecha">{{ t.fecha }}</span>
         <h3>{{ t.titulo }}</h3>
-        <p>{{ t.detalle }}{% if src %} <a class="linea-fuente" href="{{ src.url }}" rel="noopener" target="_blank">{{ src.medio }}</a>{% endif %}</p>
+        <p>{{ t.detalle }}{% if src %} <a class="linea-fuente" href="{{ src.url }}" rel="noopener" target="_blank">{{ src.medio }}</a>{% endif %}{% if t.fuente == "artista" %} <span class="linea-fuente linea-fuente-artista">Dato de la artista</span>{% endif %}</p>
       </li>
       {% endfor %}
     </ol>
