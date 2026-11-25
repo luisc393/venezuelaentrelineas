@@ -11,9 +11,9 @@ layout: default
       <p class="kicker">{{ page.publicacion }} · {{ page.fecha_texto }}</p>
       <h1>{{ page.titular }}</h1>
       <p class="dek">{{ page.resumen }}</p>
-      <p class="numero-meta">N.º {{ page.numero }} · {{ page.paginas }} páginas{% if page.precio %} · Precio de portada: {{ page.precio }}{% endif %}</p>
+      <p class="numero-meta">N.º {{ page.numero }} · {% if page.solo_portada %}Por ahora solo tenemos la portada de este número{% else %}{{ page.paginas }} páginas{% endif %}{% if page.precio %} · Precio de portada: {{ page.precio }}{% endif %}</p>
       <p class="pub-actions">
-        <a class="btn" href="{{ page.pdf | relative_url }}">Leer el número completo (PDF)</a>
+        <a class="btn" href="{{ page.pdf | relative_url }}">{% if page.solo_portada %}Ver la portada (PDF){% else %}Leer el número completo (PDF){% endif %}</a>
         <a class="btn btn-outline" href="{{ page.pdf | relative_url }}" download>Descargar</a>
       </p>
       <div class="prose">{{ content }}</div>
@@ -23,7 +23,7 @@ layout: default
   {%- assign arts = site.articulos | where: "numero_url", page.url | sort: "orden" -%}
   {% if arts.size > 0 %}
   <section class="sumario">
-    <div class="rule-head"><h2>Lee el número, artículo por artículo</h2><span>{{ arts.size }} textos</span></div>
+    <div class="rule-head">{% if page.solo_portada %}<h2>El artículo de portada</h2>{% else %}<h2>Lee el número, artículo por artículo</h2><span>{{ arts.size }} textos</span>{% endif %}</div>
     <ol>
       {% for a in arts %}
       <li>
@@ -34,9 +34,10 @@ layout: default
       {% endfor %}
     </ol>
   </section>
-  {% elsif page.sumario %}
+  {% endif %}
+  {% if page.sumario and arts.size == 0 or page.sumario and page.solo_portada %}
   <section class="sumario">
-    <div class="rule-head"><h2>En este número</h2></div>
+    <div class="rule-head"><h2>{% if page.solo_portada %}Lo que trae este número según su portada{% else %}En este número{% endif %}</h2></div>
     <ol>
       {% for a in page.sumario %}
       <li>
@@ -59,7 +60,7 @@ layout: default
   {% endif %}
 
   <section class="visor">
-    <div class="rule-head"><h2>Hojea el número</h2></div>
+    <div class="rule-head"><h2>{% if page.solo_portada %}La portada{% else %}Hojea el número{% endif %}</h2></div>
     <object data="{{ page.pdf | relative_url }}#view=FitH" type="application/pdf" class="visor-pdf">
       <p>Tu navegador no muestra el PDF aquí. <a href="{{ page.pdf | relative_url }}">Ábrelo en una pestaña nueva</a>.</p>
     </object>
