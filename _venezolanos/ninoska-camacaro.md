@@ -57,7 +57,7 @@ trayectoria:
     titulo: Gilda en «Rigoletto»
     detalle: Cantó Gilda, la hija de Rigoletto, en la ópera de Verdi en el Teatro Municipal de Caracas.
     fuente: artista
-  - fecha: Hacia 2022
+  - fecha: 2022
     titulo: Adina en «L'elisir d'amore»
     detalle: Su primera ópera con la Compañía de Ópera del Teatro Teresa Carreño y también su primera ópera en la Sala Ríos Reyna.
     fuente: artista
