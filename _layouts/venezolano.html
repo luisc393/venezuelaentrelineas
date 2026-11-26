@@ -2,6 +2,7 @@
 layout: default
 ---
 {%- assign f = page.fuentes -%}
+{%- assign en = false -%}{%- if page.lang == 'en' -%}{%- assign en = true -%}{%- endif -%}
 <section class="talento-hero">
   <div class="wrap talento-hero-grid">
     <div>
@@ -19,57 +20,57 @@ layout: default
 
 <div class="wrap talento-page">
   {% if page.preliminar %}
-  <p class="aviso-preliminar"><strong>Versión preliminar.</strong> Este perfil se armó con información pública de prensa y redes. Lo completaremos con el material que nos comparta {{ page.title | split: " " | first }}: fotos, currículo, grabaciones y repertorio.</p>
+  <p class="aviso-preliminar">{% if en %}<strong>Preliminary version.</strong> This profile was put together from public press coverage and social media, plus details shared by {{ page.title | split: " " | first }}. We will complete it with her photos, CV, recordings and repertoire.{% else %}<strong>Versión preliminar.</strong> Este perfil se armó con información pública de prensa y redes. Lo completaremos con el material que nos comparta {{ page.title | split: " " | first }}: fotos, currículo, grabaciones y repertorio.{% endif %}</p>
   {% endif %}
 
-  <nav class="talento-indice" aria-label="En esta página">
-    <a href="#semblanza">Semblanza</a>
-    <a href="#trayectoria">Trayectoria</a>
-    <a href="#repertorio">Repertorio</a>
-    {% if page.videos or page.enlaces_video %}<a href="#portafolio">Escúchala</a>{% endif %}
-    <a href="#prensa">Prensa</a>
+  <nav class="talento-indice" aria-label="{% if en %}On this page{% else %}En esta página{% endif %}">
+    <a href="#semblanza">{% if en %}Profile{% else %}Semblanza{% endif %}</a>
+    <a href="#trayectoria">{% if en %}Career{% else %}Trayectoria{% endif %}</a>
+    <a href="#repertorio">{% if en %}Repertoire{% else %}Repertorio{% endif %}</a>
+    {% if page.videos or page.enlaces_video %}<a href="#portafolio">{% if en %}Listen{% else %}Escúchala{% endif %}</a>{% endif %}
+    <a href="#prensa">{% if en %}Press{% else %}Prensa{% endif %}</a>
   </nav>
 
   <section id="semblanza" class="talento-sec">
-    <div class="rule-head"><h2>Semblanza</h2></div>
+    <div class="rule-head"><h2>{% if en %}Profile{% else %}Semblanza{% endif %}</h2></div>
     <div class="talento-semblanza">
       <div class="prose prose-drop">{{ content }}</div>
-      {% if page.cita %}<blockquote class="pull">«{{ page.cita }}»<cite>{{ page.title }} · {{ page.cita_fuente }}</cite></blockquote>{% endif %}
+      {% if page.cita %}<blockquote class="pull">{% if en %}“{{ page.cita }}”{% else %}«{{ page.cita }}»{% endif %}<cite>{{ page.title }} · {{ page.cita_fuente }}</cite></blockquote>{% endif %}
     </div>
   </section>
 
   <section id="trayectoria" class="talento-sec">
-    <div class="rule-head"><h2>Trayectoria</h2><span>Hitos documentados en prensa</span></div>
+    <div class="rule-head"><h2>{% if en %}Career{% else %}Trayectoria{% endif %}</h2><span>{% if en %}Milestones documented in the press{% else %}Hitos documentados en prensa{% endif %}</span></div>
     <ol class="linea">
       {% for t in page.trayectoria %}{% assign src = f[t.fuente] %}
       <li>
         <span class="linea-fecha">{{ t.fecha }}</span>
         <h3>{{ t.titulo }}</h3>
-        <p>{{ t.detalle }}{% if src %} <a class="linea-fuente" href="{{ src.url }}" rel="noopener" target="_blank">{{ src.medio }}</a>{% endif %}{% if t.fuente == "artista" %} <span class="linea-fuente linea-fuente-artista">Dato de la artista</span>{% endif %}</p>
+        <p>{{ t.detalle }}{% if src %} <a class="linea-fuente" href="{{ src.url }}" rel="noopener" target="_blank">{{ src.medio }}</a>{% endif %}{% if t.fuente == "artista" %} <span class="linea-fuente linea-fuente-artista">{% if en %}Provided by the artist{% else %}Dato de la artista{% endif %}</span>{% endif %}</p>
       </li>
       {% endfor %}
     </ol>
   </section>
 
   <section id="repertorio" class="talento-sec">
-    <div class="rule-head"><h2>Repertorio</h2><span>Ópera, zarzuela y concierto</span></div>
-    <h3 class="talento-sub">Roles</h3>
+    <div class="rule-head"><h2>{% if en %}Repertoire{% else %}Repertorio{% endif %}</h2><span>{% if en %}Opera, zarzuela and concert{% else %}Ópera, zarzuela y concierto{% endif %}</span></div>
+    <h3 class="talento-sub">{% if en %}Roles{% else %}Roles{% endif %}</h3>
     <ul class="roles">
       {% for r in page.roles %}<li><strong>{{ r.rol }}</strong><span><em>{{ r.obra }}</em> · {{ r.autor }}</span></li>{% endfor %}
     </ul>
     {% if page.concierto %}
-    <h3 class="talento-sub">En concierto y recital</h3>
+    <h3 class="talento-sub">{% if en %}In concert and recital{% else %}En concierto y recital{% endif %}</h3>
     <ul class="talento-lista">{% for c in page.concierto %}<li>{{ c }}</li>{% endfor %}</ul>
     {% endif %}
     <div class="talento-cols">
-      {% if page.orquestas %}<div><h3 class="talento-sub">Orquestas y compañías</h3><ul class="talento-lista">{% for o in page.orquestas %}<li>{{ o }}</li>{% endfor %}</ul></div>{% endif %}
-      {% if page.directores %}<div><h3 class="talento-sub">Ha cantado bajo la dirección de</h3><p class="talento-nombres">{{ page.directores | join: " · " }}</p></div>{% endif %}
+      {% if page.orquestas %}<div><h3 class="talento-sub">{% if en %}Orchestras and companies{% else %}Orquestas y compañías{% endif %}</h3><ul class="talento-lista">{% for o in page.orquestas %}<li>{{ o }}</li>{% endfor %}</ul></div>{% endif %}
+      {% if page.directores %}<div><h3 class="talento-sub">{% if en %}She has sung under the baton of{% else %}Ha cantado bajo la dirección de{% endif %}</h3><p class="talento-nombres">{{ page.directores | join: " · " }}</p></div>{% endif %}
     </div>
   </section>
 
   {% if page.videos or page.enlaces_video %}
   <section id="portafolio" class="talento-sec">
-    <div class="rule-head"><h2>Escúchala</h2><span>Videos públicos</span></div>
+    <div class="rule-head"><h2>{% if en %}Listen{% else %}Escúchala{% endif %}</h2><span>{% if en %}Public videos{% else %}Videos públicos{% endif %}</span></div>
     <div class="videos">
       {% for v in page.videos %}
       <figure class="video">
@@ -83,21 +84,26 @@ layout: default
   {% endif %}
 
   <section id="prensa" class="talento-sec">
-    <div class="rule-head"><h2>Prensa y fuentes</h2></div>
+    <div class="rule-head"><h2>{% if en %}Press and sources{% else %}Prensa y fuentes{% endif %}</h2></div>
     <ul class="prensa">
       {% for par in f %}{% assign s = par[1] %}
       <li><a href="{{ s.url }}" rel="noopener" target="_blank"><span class="kicker">{{ s.medio }} · {{ s.fecha }}</span>{{ s.titulo }}</a></li>
       {% endfor %}
     </ul>
-    {% if page.redes %}<p class="talento-redes">Síguela en {% for r in page.redes %}<a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.titulo }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
+    {% if page.redes %}<p class="talento-redes">{% if en %}Follow her on{% else %}Síguela en{% endif %} {% for r in page.redes %}<a href="{{ r.url }}" rel="noopener" target="_blank">{{ r.titulo }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}.</p>{% endif %}
   </section>
 
   <div class="cta-box talento-cta">
     <div>
+{% if en %}
+      <h2>Know another Venezuelan who inspires?</h2>
+      <p>Tell us their story and we will add them to the Venezolanos Entrelíneas gallery. You can write in English or Spanish.</p>
+      {% else %}
       <h2>¿Conoces a otro venezolano que inspire?</h2>
       <p>Cuéntanos su historia y lo sumamos a la galería de Venezolanos Entrelíneas.</p>
+      {% endif %}
     </div>
-    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-a-alguien">Postula a alguien</a>
+    <a class="btn" href="{{ '/participa/' | relative_url }}#postula-a-alguien">{% if en %}Nominate someone{% else %}Postula a alguien{% endif %}</a>
   </div>
-  <p class="back"><a href="{{ '/venezolanos/' | relative_url }}">← Volver a Venezolanos Entrelíneas</a></p>
+  <p class="back">{% if en %}<a href="{{ page.traduccion | relative_url }}" lang="es">Leer en español</a> · <a href="{{ '/venezolanos/' | relative_url }}">Venezolanos Entrelíneas (in Spanish) →</a>{% else %}<a href="{{ '/venezolanos/' | relative_url }}">← Volver a Venezolanos Entrelíneas</a>{% if page.traduccion %} · <a href="{{ page.traduccion | relative_url }}" lang="en">Read in English</a>{% endif %}{% endif %}</p>
 </div>

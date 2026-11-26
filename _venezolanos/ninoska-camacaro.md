@@ -6,6 +6,7 @@ ciudad: Caracas
 orden: 1
 iniciales: NC
 preliminar: true
+traduccion: /en/venezolanos/ninoska-camacaro/   # versión en inglés: actualízala con cada cambio
 resumen: "Soprano coloratura caraqueña formada en el Conservatorio Simón Bolívar. Ha sido Lucía, Violetta, Gilda y la Reina de la Noche en los grandes escenarios de Caracas."
 cita: "El cantar es como ponerte unas alas y empezar a volar."
 cita_fuente: Entrevista en The Wynwood Times, 2019
