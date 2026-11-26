@@ -6,6 +6,7 @@ lang: es
 timezone: America/Caracas
 permalink: /:year/:month/:title/
 markdown: kramdown
+logo: /assets/img/marca/simbolo-512.png
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -29,6 +30,10 @@ collections:
     permalink: /en/articles/:name/
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/marca/imagen-compartir.png
   - scope:
       type: entrelineas
     values:
