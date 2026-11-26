@@ -10,7 +10,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600&family=Montserrat:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% if page.traduccion %}<link rel="alternate" hreflang="{{ page.lang | default: site.lang }}" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="{% if page.lang == 'en' %}es{% else %}en{% endif %}" href="{{ page.traduccion | absolute_url }}">{% endif %}
@@ -62,7 +65,7 @@
   <footer class="site-footer">
     <div class="wrap footer-grid">
       <div>
-        <p class="footer-brand logo logo-claro">Venezuela<span class="entre">entre</span>líneas</p>
+        <p class="footer-brand"><img class="footer-simbolo" src="{{ '/assets/img/marca/simbolo-negativo.svg' | relative_url }}" alt="" width="44" height="44"><span class="logo logo-claro">Venezuela<span class="entre">entre</span>líneas</span></p>
         {% if page.lang == 'en' %}<p>“Great lines for a better Venezuela.” Sowing values, hope and peace since 1996.</p>{% else %}<p>{{ site.tagline }}. Sembrando valores, esperanza y paz desde 1996.</p>{% endif %}
       </div>
       <div>
@@ -73,6 +76,7 @@
           <li><a href="{{ '/nuestra-historia/' | relative_url }}">Nuestra historia</a></li>
           <li><a href="{{ '/la-fundacion/' | relative_url }}">La Fundación</a></li>
           <li><a href="{{ '/participa/' | relative_url }}">Participa</a></li>
+          <li><a href="{{ '/marca/' | relative_url }}">Marca y logos</a></li>
         </ul>
       </div>
       <div>

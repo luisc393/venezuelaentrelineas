@@ -13,6 +13,7 @@
   --link: #006699;        /* azul medio de la paleta del manual */
   --sky: #0091d9;         /* azul claro de la paleta del manual */
   --gold: #f2c31b;
+  --niebla: #7d84ab;      /* azul niebla: solo para el mapa del símbolo */
   --blue: #26327a;
   --red: #c8102e;
   --night: #26327a;
@@ -233,7 +234,8 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.1; margin: 0; }
 .site-footer { background: var(--night); color: #dbe3ff; margin-top: 72px; padding: 48px 0 24px; font-size: 16px; }
 .footer-grid { display: grid; gap: 28px; }
 @media (min-width: 720px) { .footer-grid { grid-template-columns: 2fr 1fr 1fr; } }
-.footer-brand { font-size: 30px; margin: 0 0 8px; }
+.footer-brand { font-size: 30px; margin: 0 0 8px; display: flex; align-items: center; gap: 12px; }
+.footer-simbolo { width: 44px; height: 44px; flex: none; }
 .footer-title { font-family: var(--sans); font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: #fff; margin: 0 0 10px; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 6px; }
@@ -341,3 +343,21 @@ a.sum-tit:hover { color: var(--accent); }
 .etiqueta { align-self: flex-start; margin-top: 10px; font-family: var(--sans); font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; background: #fff8dc; border: 1px solid var(--gold); padding: 3px 8px; }
 .talento-pronto { max-width: 700px; color: var(--ink-2); }
 .linea-fuente-artista::before { content: ""; }
+
+/* Página «Marca y logos» */
+.marca-hero { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; background: var(--accent); color: #fff; padding: 28px; margin: 8px 0 32px; }
+.marca-hero img { width: 140px; height: 140px; flex: none; }
+.marca-hero p { margin: 0; flex: 1 1 260px; font-size: 1.05rem; }
+.marca-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 18px; margin: 18px 0 28px; }
+.marca-item { border: 1px solid var(--rule); display: flex; flex-direction: column; }
+.marca-vis { height: 150px; display: flex; align-items: center; justify-content: center; padding: 18px; background: var(--paper-2); }
+.marca-vis.oscuro { background: var(--accent); }
+.marca-vis img { max-width: 100%; max-height: 100%; }
+.marca-item p { margin: 0; padding: 12px 14px 4px; font-family: var(--sans); font-size: 14px; font-weight: 600; color: var(--ink); }
+.marca-item .descargas { padding: 0 14px 14px; font-family: var(--sans); font-size: 13px; }
+.marca-item .descargas a { margin-right: 12px; }
+.paleta { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 16px 0 28px; }
+.paleta div { border: 1px solid var(--rule); font-family: var(--sans); font-size: 13px; }
+.paleta i { display: block; height: 64px; }
+.paleta b, .paleta span { display: block; padding: 0 10px; }
+.paleta b { padding-top: 8px; color: var(--ink); } .paleta span { padding-bottom: 10px; color: var(--muted); }
