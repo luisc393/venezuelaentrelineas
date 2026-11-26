@@ -1,0 +1,21 @@
+---
+title: "Reflections before a door: the theater's"
+original_url: /vertice/19/reflexiones-ante-una-puerta-la-del-teatro/
+issue_text: "No. 19 · May 1964"
+section: "Theater"
+orden_en: 1019.02
+---
+
+Which theater? Any one where something is being staged. Because in Caracas, although we always say there is no theater, there are groups determined to create a theatrical tradition. We have the Teatro Ateneo, the Universitario, the Leoncio Martínez, the Teatro de Bolsillo, and we have had Los Caobos, La Comedia, La Quimera and some other that escapes me. Besides, there are the companies that come for seasons, like the International Theater Festival on the stage of the Municipal these days. Well then, this theater door opens in Caracas (and in the rest of the country too) several times a year. But it opens before a great indifference on the part of the public. Among us, doing theater is neither a profession nor a hobby; it is a kind of heroic apostolate. I say this having felt it in my own flesh. I have joined the Spanish-language group of the Teatro de Bolsillo at the Centro Venezolano Francés, and in a short time I have gathered a great deal of experience of theatrical adventures and misadventures.
+
+The actors' activities: you start by rehearsing, then you do the publicity, posting and handing out flyers, by word of mouth and by telephone. You sell tickets at the box office and outside it, find the props you need, set them on stage, raise the curtain and act. Some days the actors would have to applaud or boo themselves, because there is nobody in the house. Sometimes we have neither the time nor the voice to tell an acquaintance, and that is exactly the one who comes and says: "Why didn't you tell me? I would have gone." But a lot of people stay in the "would have". The first week they don't go because they leave it for the second; then they can't; and when they finally make up their minds, there are no more performances. Of course, you cannot stay on the bill indefinitely with an empty house.
+
+And the press? Ah, the press! With honorable exceptions, it is the most indifferent of all, even though its mission is to report on and give its opinion of the good and the bad. A special performance is put on for journalists, and if two of them come you have to count yourself very satisfied. Yet when we run into some journalists at a gathering of "intellectuals", there is talk of the lack of culture and of what should be done. Among other things, there is talk of theater; and how can anything be done for theater if people don't go to it? The first help theater needs in Venezuela is financial; there are days, many of them, when the whole box office does not cover the newspaper ad. A sad reality, but it is an optimistic reality that, despite these losses, theater keeps being made.
+
+And university students? They don't go to the theater either, or they go to the Teatro Universitario to make trouble. Someone told me how unpleasant it was to watch a performance of "I, Bertolt Brecht" because of the uproar in the university hall.
+
+In most theaters student tickets are half price, but students do not even make up half the ordinary audience. What a pity! University students cannot settle for the education they receive in the classroom, at the point and to the extent it is given. They must broaden their horizons with every artistic and intellectual expression in order to build a personality with some universality. They must have a spirit of rising above themselves and their surroundings in the vast field of culture. Theater is an integral part of that field.
+
+Few people pass through the doors of our theaters: few university students, few intellectuals. It is no excuse to say that the shows are bad. That is not entirely true; there are good ones, very good ones. But even if it were so, one should go precisely in order to give an opinion, to offer the constructive criticism needed to encourage and push for better shows. If no one says anything, if indifference is the only answer to the effort of making theater, how can it move forward? It is hard to improve in the loneliness of silence, where directors and actors hear neither applause nor criticism.
+
+*alicia álamo bartolomé*

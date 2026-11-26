@@ -1,0 +1,30 @@
+---
+layout: default
+lang: en
+title: Articles in English
+permalink: /en/articles/
+description: "A selection of articles from Leer Entrelíneas (since 1996) and Vértice (1962–1968), translated from the Spanish."
+---
+{%- assign trs = site.translations | sort: "orden_en" -%}
+<article class="wrap page">
+  <header class="page-head">
+    <p class="kicker">From the archive</p>
+    <h1>Articles in English</h1>
+    <p class="dek">A selection of texts from our two publications, translated from the Spanish so readers everywhere can get a taste of the archive. More will follow little by little.</p>
+  </header>
+  {% assign grupos = "Leer Entrelíneas|Vértice" | split: "|" %}
+  {% for g in grupos %}
+  <section class="sumario">
+    <div class="rule-head"><h2>{{ g }}</h2><span>{% if g == "Vértice" %}University magazine, 1962–1968{% else %}Free monthly newspaper, since 1996{% endif %}</span></div>
+    <ol>
+      {% for t in trs %}{% assign o = site.articulos | where: "url", t.original_url | first %}{% if o.publicacion == g %}
+      <li>
+        <span class="sum-pag">{{ o.numero }}</span>
+        <a class="sum-tit" href="{{ t.url | relative_url }}">{{ t.title }}</a>
+        <span class="sum-aut">{{ t.issue_text }}{% if o.autores.size > 0 %} · {{ o.autores | join: ", " }}{% endif %}</span>
+      </li>
+      {% endif %}{% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+</article>

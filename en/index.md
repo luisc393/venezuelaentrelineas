@@ -10,7 +10,7 @@ description: "About Venezuela Entrelíneas: good news from Venezuela and an open
 
 Venezuela Entrelíneas means, roughly, *“Venezuela between the lines”*. Our motto, carried over from the foundation that started it all, is *“Grandes líneas para una Venezuela mejor”*: great lines for a better Venezuela. The site has two goals. The first is to tell the stories of people, schools, communities and organizations doing good things for the country. The second is to rescue, digitize and open to everyone a printed heritage that would otherwise be lost.
 
-**Please note:** the site is written in Spanish. This page explains what you will find here; the articles and magazines themselves are published in their original language.
+**Please note:** the site is written in Spanish. This page explains what you will find here; the articles and magazines themselves are published in their original language. To give English readers a taste of the archive, we have translated [a selection of articles](/en/articles/) from both publications, and we will keep adding more.
 
 ## Where it comes from
 

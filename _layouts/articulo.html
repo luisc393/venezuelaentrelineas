@@ -9,7 +9,9 @@ layout: default
   <header class="page-head">
     <p class="kicker">{% if page.seccion %}{{ page.seccion }} · {% endif %}{{ page.publicacion }}, pág. {{ page.pagina }}</p>
     <h1>{{ page.title }}</h1>
+    {%- assign tr = site.translations | where: "original_url", page.url | first -%}
     <p class="byline">{% if page.autores.size > 0 %}Por {% for a in page.autores %}<a href="{{ '/autores/' | relative_url }}#{{ a | slugify }}"><strong>{{ a }}</strong></a>{% unless forloop.last %}{% if forloop.rindex == 2 %} y {% else %}, {% endif %}{% endunless %}{% endfor %}{% else %}Sin firma{% endif %} · {{ page.numero_texto }}</p>
+    {% if tr %}<p class="byline"><a href="{{ tr.url | relative_url }}" hreflang="en" lang="en">Read in English →</a></p>{% endif %}
   </header>
   {%- comment -%} La capitular va en el primer párrafo de texto, no en una nota en cursiva ni en una acotación de ilustración. {%- endcomment -%}
   {%- capture nl %}

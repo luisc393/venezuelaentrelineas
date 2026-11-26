@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  {% if page.original_url %}<link rel="alternate" hreflang="es" href="{{ page.original_url | absolute_url }}">{% endif %}
   {% feed_meta %}
   <meta name="theme-color" content="#26327a">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +36,8 @@
   <nav class="mainnav" aria-label="Secciones">
     <div class="wrap mainnav-inner">
       {% if page.lang == 'en' %}
-      <a href="{{ '/en/' | relative_url }}" class="activo">About</a>
+      <a href="{{ '/en/' | relative_url }}" {% if url == '/en/' %}class="activo"{% endif %}>About</a>
+      <a href="{{ '/en/articles/' | relative_url }}" {% if url contains '/en/articles/' %}class="activo"{% endif %}>Articles in English</a>
       <a href="{{ '/leer-entrelineas/' | relative_url }}">Leer Entrelíneas</a>
       <a href="{{ '/vertice/' | relative_url }}">Vértice</a>
       <a href="{{ '/' | relative_url }}" lang="es">Sitio en español</a>
