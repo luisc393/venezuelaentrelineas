@@ -24,6 +24,9 @@ collections:
   venezolanos:
     output: true
     permalink: /venezolanos/:name/
+  translations:
+    output: true
+    permalink: /en/articles/:name/
 
 defaults:
   - scope:
@@ -47,6 +50,11 @@ defaults:
       type: venezolanos
     values:
       layout: venezolano
+  - scope:
+      type: translations
+    values:
+      layout: translation
+      lang: en
 
 exclude:
   - README.md

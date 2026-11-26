@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- assign orig = site.articulos | where: "url", page.original_url | first -%}
+{%- assign numero = site.vertice | where: "url", orig.numero_url | first -%}
+{%- if numero == nil -%}{%- assign numero = site.entrelineas | where: "url", orig.numero_url | first -%}{%- endif -%}
+<article class="wrap post articulo">
+  <p class="crumbs"><a href="{{ '/en/' | relative_url }}">English</a> <span>›</span> <a href="{{ '/en/articles/' | relative_url }}">Articles in English</a></p>
+  <header class="page-head">
+    <p class="kicker">{% if page.section %}{{ page.section }} · {% endif %}{{ orig.publicacion }}, p. {{ orig.pagina }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="byline">{% if orig.autores.size > 0 %}By {% for a in orig.autores %}<strong>{{ a }}</strong>{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% else %}Unsigned{% endif %} · {{ page.issue_text }}</p>
+  </header>
+  <div class="prose prose-drop">
+{{ content }}
+  </div>
+  <p class="nota-transcripcion">Translated from the Spanish by the Venezuela Entrelíneas team. Read the <a href="{{ orig.url | relative_url }}" hreflang="es" lang="es">original article in Spanish</a>{% if numero.pdf %}, or see the page as it was printed in the <a href="{{ numero.pdf | relative_url }}">PDF of the issue</a>{% endif %}.</p>
+</article>

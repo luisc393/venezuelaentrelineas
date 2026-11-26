@@ -1,0 +1,14 @@
+---
+title: "Teaching by example..."
+original_url: /leer-entrelineas/078/educar-con-el-ejemplo/
+issue_text: "No. 78 · May 2003"
+orden_en: 78.01
+---
+
+**Some** Venezuelans have argued that people steal out of hunger, but a very experienced police officer once answered a journalist on the subject as follows: "Very few steal out of hunger. Very few. People steal because it is easier than working. There is a loss of values. Criminals tell me that as long as they can run and jump they will keep stealing; that they earn more in a day than others earn in a month of honest work. It is a loss of values, and we have to recover them." The interviewer immediately asked him: "How?" And the answer came at once, sharp and sure: "Educate, educate, educate..."
+
+True: recover lost values through education. But not through an education of facts and memorization; rather through a genuine process that invites young people to reflect, to understand, to analyze the reality around them, to give their opinion on what they consider better or worse for living and being a better person. An education that recovers the importance of harmonious surroundings in which a human being can feel comfortable and at ease. An education that restores order and authority. And, finally, an education that is not only on the blackboard, or on the computer, or in the book, or in the speech, or in the sermon. No. An education that lives in the lives of those who practice it. An education that lies in the actions of the one who educates. Parents, guardians, schoolteachers, professors, relatives and leaders must responsibly accept that they have to be "models" of life for their children, students and coworkers. Models, so that they can be clearly seen as people who are constantly striving and improving. Only those who make the effort to develop values and virtues in themselves, who work on their weaknesses and want to be a better man or a better woman each day, can teach them.
+
+*Forming a person requires encouraging, passing on, channeling, guiding and inviting by example.*
+
+Forming a person requires encouraging, passing on, channeling, guiding and inviting by example. The gap between what one says and what one does deeply disappoints young people. Besides, we must not lose sight of the fact that all human beings have a kind of "universal vocation" to education. We are all educated by everyone. Someone influences us through their life. Someone always has some ability, some trait of character, some way of doing and saying things that can mark us for life. That is why each of us should focus on our own duties and responsibilities, which means looking inside and asking ourselves what contribution we could make to create something better, to have a positive influence on others, on those around us. Gandhi was once asked what his message was, and he said: "My life is my message." Indeed, this is true for each of us too. Our life is our message.
