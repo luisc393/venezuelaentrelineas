@@ -6,3 +6,4 @@
 - Imágenes en `assets/img/`, optimizadas (ancho máximo ~1600px, JPG/WebP).
 - Solo plugins permitidos por GitHub Pages (jekyll-feed, jekyll-seo-tag, jekyll-sitemap ya activos).
 - El repo es público: nunca subir datos personales (cédulas, teléfonos, direcciones), claves ni documentos internos de la fundación o de Gráficas Capriles.
+- Perfiles de Venezolanos Entrelíneas: `_venezolanos/slug.md` (español) y, si tiene traducción, `en/venezolanos/slug.md` (inglés, `lang: en`). Los dos se enlazan con el campo `traduccion`. Cada cambio en un perfil en español se aplica también en su versión en inglés en el mismo PR.

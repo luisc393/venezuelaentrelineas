@@ -35,3 +35,7 @@ El número aparece solo en la sección correspondiente, con su página propia.
 - `leer-entrelineas.md` y `vertice.md`: secciones de la hemeroteca, con la historia de cada publicación.
 - `nuestra-historia.md`, `participa.md`: páginas fijas.
 - `assets/css/style.css`: estilos.
+
+## Venezolanos Entrelíneas
+
+Cada perfil es un archivo en `_venezolanos/` (por ejemplo `ninoska-camacaro.md`). Si el perfil tiene versión en inglés, vive en `en/venezolanos/` con el mismo nombre y `lang: en`, y los dos archivos se apuntan entre sí con el campo `traduccion`. **Cuando cambies un perfil en español, cambia también su versión en inglés.**

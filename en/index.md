@@ -34,6 +34,10 @@ Its pages debated university reform and autonomy, scientific research, the place
 
 **The complete collection is now online: all {{ site.vertice | size }} issues**, each with its cover, a summary in Spanish, the scanned PDF and every article transcribed so it can be read and searched. [Browse Vértice →](/vertice/)
 
+## Venezolanos Entrelíneas
+
+A tribute to Venezuelan talent: musicians, artists, scientists, athletes and teachers, each with a page of their own telling their story, career and work. The first profile is available in English: [Ninoska Camacaro, coloratura soprano →](/en/venezolanos/ninoska-camacaro/)
+
 ## How to use the archive
 
 - **By issue:** each publication page lists every issue in order. Open one to see its table of contents and download the original PDF.
